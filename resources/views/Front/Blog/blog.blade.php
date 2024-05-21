@@ -18939,6 +18939,7 @@
                     </div>
                 </div>
             </section>
+
             <section class="o-section is--mt-260--z-n3 m--mt-80">
                 <div class="s-c-top-blend"></div>
                 <div class="c-lside-grad"></div>
@@ -18947,53 +18948,25 @@
                         <div role="list" class="s-partners__list u-direct-r w-dyn-items">
                             <div role="listitem" class="s-partners__item w-dyn-item">
                                 <figure class="s-logo">
-                                    <img alt="" loading="lazy" src="https://assets-global.website-files.com/6092c1945b43dc602a3e3dea/60a56fa1d398f50c5f2b65aa_vaisala.png" class="o-img is--z-3"/>
+                                    <img alt="" loading="lazy" src="{{asset('assets/Client_Logos/1.jpg')}}" class="o-img o-img-img is--z-3"/>
                                     <div class="s-logo__bg">
-                                        <img src="https://assets-global.website-files.com/6092932467852e3af1741898/60a5706b33ac0f5d991f8e0d_s-logo-bg.svg" loading="lazy" alt="" class="o-img"/>
+                                        <img src="https://assets-global.website-files.com/6092932467852e3af1741898/60a5706b33ac0f5d991f8e0d_s-logo-bg.svg" loading="lazy" alt="" class="o-img o-img-img"/>
                                     </div>
                                 </figure>
                             </div>
                             <div role="listitem" class="s-partners__item w-dyn-item">
                                 <figure class="s-logo">
-                                    <img alt="" loading="lazy" src="https://assets-global.website-files.com/6092c1945b43dc602a3e3dea/60a56f83fdd2efa07e968506_meteo.png" class="o-img is--z-3"/>
+                                    <img alt="" loading="lazy" src="{{asset('assets/Client_Logos/2.jpg')}}" class="o-img o-img-img is--z-3"/>
                                     <div class="s-logo__bg">
-                                        <img src="https://assets-global.website-files.com/6092932467852e3af1741898/60a5706b33ac0f5d991f8e0d_s-logo-bg.svg" loading="lazy" alt="" class="o-img"/>
+                                        <img src="https://assets-global.website-files.com/6092932467852e3af1741898/60a5706b33ac0f5d991f8e0d_s-logo-bg.svg" loading="lazy" alt="" class="o-img o-img-img"/>
                                     </div>
                                 </figure>
                             </div>
                             <div role="listitem" class="s-partners__item w-dyn-item">
                                 <figure class="s-logo">
-                                    <img alt="" loading="lazy" src="https://assets-global.website-files.com/6092c1945b43dc602a3e3dea/60a56f7452db1a6beabf60ca_defense%20ministry.png" class="o-img is--z-3"/>
+                                    <img alt="" loading="lazy" src="{{asset('assets/Client_Logos/3.jpg')}}" class="o-img o-img-img is--z-3"/>
                                     <div class="s-logo__bg">
-                                        <img src="https://assets-global.website-files.com/6092932467852e3af1741898/60a5706b33ac0f5d991f8e0d_s-logo-bg.svg" loading="lazy" alt="" class="o-img"/>
-                                    </div>
-                                </figure>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="s-partners w-dyn-list">
-                        <div role="list" class="s-partners__list u-direct-r w-dyn-items">
-                            <div role="listitem" class="s-partners__item w-dyn-item">
-                                <figure class="s-logo">
-                                    <img alt="" loading="lazy" src="https://assets-global.website-files.com/6092c1945b43dc602a3e3dea/60a56fa1d398f50c5f2b65aa_vaisala.png" class="o-img is--z-3"/>
-                                    <div class="s-logo__bg">
-                                        <img src="https://assets-global.website-files.com/6092932467852e3af1741898/60a5706b33ac0f5d991f8e0d_s-logo-bg.svg" loading="lazy" alt="" class="o-img"/>
-                                    </div>
-                                </figure>
-                            </div>
-                            <div role="listitem" class="s-partners__item w-dyn-item">
-                                <figure class="s-logo">
-                                    <img alt="" loading="lazy" src="https://assets-global.website-files.com/6092c1945b43dc602a3e3dea/60a56f83fdd2efa07e968506_meteo.png" class="o-img is--z-3"/>
-                                    <div class="s-logo__bg">
-                                        <img src="https://assets-global.website-files.com/6092932467852e3af1741898/60a5706b33ac0f5d991f8e0d_s-logo-bg.svg" loading="lazy" alt="" class="o-img"/>
-                                    </div>
-                                </figure>
-                            </div>
-                            <div role="listitem" class="s-partners__item w-dyn-item">
-                                <figure class="s-logo">
-                                    <img alt="" loading="lazy" src="https://assets-global.website-files.com/6092c1945b43dc602a3e3dea/60a56f7452db1a6beabf60ca_defense%20ministry.png" class="o-img is--z-3"/>
-                                    <div class="s-logo__bg">
-                                        <img src="https://assets-global.website-files.com/6092932467852e3af1741898/60a5706b33ac0f5d991f8e0d_s-logo-bg.svg" loading="lazy" alt="" class="o-img"/>
+                                        <img src="https://assets-global.website-files.com/6092932467852e3af1741898/60a5706b33ac0f5d991f8e0d_s-logo-bg.svg" loading="lazy" alt="" class="o-img o-img-img"/>
                                     </div>
                                 </figure>
                             </div>
@@ -19003,25 +18976,53 @@
                         <div role="list" class="s-partners__list u-direct-r w-dyn-items">
                             <div role="listitem" class="s-partners__item w-dyn-item">
                                 <figure class="s-logo">
-                                    <img alt="" loading="lazy" src="https://assets-global.website-files.com/6092c1945b43dc602a3e3dea/60a56fa1d398f50c5f2b65aa_vaisala.png" class="o-img is--z-3"/>
+                                    <img alt="" loading="lazy" src="{{asset('assets/Client_Logos/4.png')}}" class="o-img o-img-img is--z-3"/>
                                     <div class="s-logo__bg">
-                                        <img src="https://assets-global.website-files.com/6092932467852e3af1741898/60a5706b33ac0f5d991f8e0d_s-logo-bg.svg" loading="lazy" alt="" class="o-img"/>
+                                        <img src="https://assets-global.website-files.com/6092932467852e3af1741898/60a5706b33ac0f5d991f8e0d_s-logo-bg.svg" loading="lazy" alt="" class="o-img o-img-img"/>
                                     </div>
                                 </figure>
                             </div>
                             <div role="listitem" class="s-partners__item w-dyn-item">
                                 <figure class="s-logo">
-                                    <img alt="" loading="lazy" src="https://assets-global.website-files.com/6092c1945b43dc602a3e3dea/60a56f83fdd2efa07e968506_meteo.png" class="o-img is--z-3"/>
+                                    <img alt="" loading="lazy" src="{{asset('assets/Client_Logos/5.png')}}" class="o-img o-img-img is--z-3"/>
                                     <div class="s-logo__bg">
-                                        <img src="https://assets-global.website-files.com/6092932467852e3af1741898/60a5706b33ac0f5d991f8e0d_s-logo-bg.svg" loading="lazy" alt="" class="o-img"/>
+                                        <img src="https://assets-global.website-files.com/6092932467852e3af1741898/60a5706b33ac0f5d991f8e0d_s-logo-bg.svg" loading="lazy" alt="" class="o-img o-img-img"/>
                                     </div>
                                 </figure>
                             </div>
                             <div role="listitem" class="s-partners__item w-dyn-item">
                                 <figure class="s-logo">
-                                    <img alt="" loading="lazy" src="https://assets-global.website-files.com/6092c1945b43dc602a3e3dea/60a56f7452db1a6beabf60ca_defense%20ministry.png" class="o-img is--z-3"/>
+                                    <img alt="" loading="lazy" src="{{asset('assets/Client_Logos/6.png')}}" class="o-img o-img-img is--z-3"/>
                                     <div class="s-logo__bg">
-                                        <img src="https://assets-global.website-files.com/6092932467852e3af1741898/60a5706b33ac0f5d991f8e0d_s-logo-bg.svg" loading="lazy" alt="" class="o-img"/>
+                                        <img src="https://assets-global.website-files.com/6092932467852e3af1741898/60a5706b33ac0f5d991f8e0d_s-logo-bg.svg" loading="lazy" alt="" class="o-img o-img-img"/>
+                                    </div>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="s-partners w-dyn-list">
+                        <div role="list" class="s-partners__list u-direct-r w-dyn-items">
+                            <div role="listitem" class="s-partners__item w-dyn-item">
+                                <figure class="s-logo">
+                                    <img alt="" loading="lazy" src="{{asset('assets/Client_Logos/7.jpg')}}" class="o-img o-img-img is--z-3"/>
+                                    <div class="s-logo__bg">
+                                        <img src="https://assets-global.website-files.com/6092932467852e3af1741898/60a5706b33ac0f5d991f8e0d_s-logo-bg.svg" loading="lazy" alt="" class="o-img o-img-img"/>
+                                    </div>
+                                </figure>
+                            </div>
+                            <div role="listitem" class="s-partners__item w-dyn-item">
+                                <figure class="s-logo">
+                                    <img alt="" loading="lazy" src="{{asset('assets/Client_Logos/8.png')}}" class="o-img o-img-img is--z-3"/>
+                                    <div class="s-logo__bg">
+                                        <img src="https://assets-global.website-files.com/6092932467852e3af1741898/60a5706b33ac0f5d991f8e0d_s-logo-bg.svg" loading="lazy" alt="" class="o-img o-img-img"/>
+                                    </div>
+                                </figure>
+                            </div>
+                            <div role="listitem" class="s-partners__item w-dyn-item">
+                                <figure class="s-logo">
+                                    <img alt="" loading="lazy" src="{{asset('assets/Client_Logos/9.png')}}" class="o-img o-img-img is--z-3"/>
+                                    <div class="s-logo__bg">
+                                        <img src="https://assets-global.website-files.com/6092932467852e3af1741898/60a5706b33ac0f5d991f8e0d_s-logo-bg.svg" loading="lazy" alt="" class="o-img o-img-img"/>
                                     </div>
                                 </figure>
                             </div>
@@ -19033,53 +19034,25 @@
                         <div role="list" class="s-partners__list u-direct-r w-dyn-items">
                             <div role="listitem" class="s-partners__item w-dyn-item">
                                 <figure class="s-logo">
-                                    <img alt="" loading="lazy" src="https://assets-global.website-files.com/6092c1945b43dc602a3e3dea/60a56fa1d398f50c5f2b65aa_vaisala.png" class="o-img is--z-3"/>
+                                    <img alt="" loading="lazy" src="{{asset('assets/Client_Logos/10.png')}}" class="o-img is--z-3"/>
                                     <div class="s-logo__bg">
-                                        <img src="https://assets-global.website-files.com/6092932467852e3af1741898/60a5706b33ac0f5d991f8e0d_s-logo-bg.svg" loading="lazy" alt="" class="o-img"/>
+                                        <img src="https://assets-global.website-files.com/6092932467852e3af1741898/60a5706b33ac0f5d991f8e0d_s-logo-bg.svg" loading="lazy" alt="" class="o-img o-img-img"/>
                                     </div>
                                 </figure>
                             </div>
                             <div role="listitem" class="s-partners__item w-dyn-item">
                                 <figure class="s-logo">
-                                    <img alt="" loading="lazy" src="https://assets-global.website-files.com/6092c1945b43dc602a3e3dea/60a56f83fdd2efa07e968506_meteo.png" class="o-img is--z-3"/>
+                                    <img alt="" loading="lazy" src="{{asset('assets/Client_Logos/11.jpg')}}" class="o-img o-img-img is--z-3"/>
                                     <div class="s-logo__bg">
-                                        <img src="https://assets-global.website-files.com/6092932467852e3af1741898/60a5706b33ac0f5d991f8e0d_s-logo-bg.svg" loading="lazy" alt="" class="o-img"/>
+                                        <img src="https://assets-global.website-files.com/6092932467852e3af1741898/60a5706b33ac0f5d991f8e0d_s-logo-bg.svg" loading="lazy" alt="" class="o-img o-img-img"/>
                                     </div>
                                 </figure>
                             </div>
                             <div role="listitem" class="s-partners__item w-dyn-item">
                                 <figure class="s-logo">
-                                    <img alt="" loading="lazy" src="https://assets-global.website-files.com/6092c1945b43dc602a3e3dea/60a56f7452db1a6beabf60ca_defense%20ministry.png" class="o-img is--z-3"/>
+                                    <img alt="" loading="lazy" src="{{asset('assets/Client_Logos/12.jpeg')}}" class="o-img o-img-img is--z-3"/>
                                     <div class="s-logo__bg">
-                                        <img src="https://assets-global.website-files.com/6092932467852e3af1741898/60a5706b33ac0f5d991f8e0d_s-logo-bg.svg" loading="lazy" alt="" class="o-img"/>
-                                    </div>
-                                </figure>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="s-partners w-dyn-list">
-                        <div role="list" class="s-partners__list u-direct-r w-dyn-items">
-                            <div role="listitem" class="s-partners__item w-dyn-item">
-                                <figure class="s-logo">
-                                    <img alt="" loading="lazy" src="https://assets-global.website-files.com/6092c1945b43dc602a3e3dea/60a56fa1d398f50c5f2b65aa_vaisala.png" class="o-img is--z-3"/>
-                                    <div class="s-logo__bg">
-                                        <img src="https://assets-global.website-files.com/6092932467852e3af1741898/60a5706b33ac0f5d991f8e0d_s-logo-bg.svg" loading="lazy" alt="" class="o-img"/>
-                                    </div>
-                                </figure>
-                            </div>
-                            <div role="listitem" class="s-partners__item w-dyn-item">
-                                <figure class="s-logo">
-                                    <img alt="" loading="lazy" src="https://assets-global.website-files.com/6092c1945b43dc602a3e3dea/60a56f83fdd2efa07e968506_meteo.png" class="o-img is--z-3"/>
-                                    <div class="s-logo__bg">
-                                        <img src="https://assets-global.website-files.com/6092932467852e3af1741898/60a5706b33ac0f5d991f8e0d_s-logo-bg.svg" loading="lazy" alt="" class="o-img"/>
-                                    </div>
-                                </figure>
-                            </div>
-                            <div role="listitem" class="s-partners__item w-dyn-item">
-                                <figure class="s-logo">
-                                    <img alt="" loading="lazy" src="https://assets-global.website-files.com/6092c1945b43dc602a3e3dea/60a56f7452db1a6beabf60ca_defense%20ministry.png" class="o-img is--z-3"/>
-                                    <div class="s-logo__bg">
-                                        <img src="https://assets-global.website-files.com/6092932467852e3af1741898/60a5706b33ac0f5d991f8e0d_s-logo-bg.svg" loading="lazy" alt="" class="o-img"/>
+                                        <img src="https://assets-global.website-files.com/6092932467852e3af1741898/60a5706b33ac0f5d991f8e0d_s-logo-bg.svg" loading="lazy" alt="" class="o-img o-img-img"/>
                                     </div>
                                 </figure>
                             </div>
@@ -19089,25 +19062,53 @@
                         <div role="list" class="s-partners__list u-direct-r w-dyn-items">
                             <div role="listitem" class="s-partners__item w-dyn-item">
                                 <figure class="s-logo">
-                                    <img alt="" loading="lazy" src="https://assets-global.website-files.com/6092c1945b43dc602a3e3dea/60a56fa1d398f50c5f2b65aa_vaisala.png" class="o-img is--z-3"/>
+                                    <img alt="" loading="lazy" src="{{asset('assets/Client_Logos/13.png')}}" class="o-img o-img-img is--z-3"/>
                                     <div class="s-logo__bg">
-                                        <img src="https://assets-global.website-files.com/6092932467852e3af1741898/60a5706b33ac0f5d991f8e0d_s-logo-bg.svg" loading="lazy" alt="" class="o-img"/>
+                                        <img src="https://assets-global.website-files.com/6092932467852e3af1741898/60a5706b33ac0f5d991f8e0d_s-logo-bg.svg" loading="lazy" alt="" class="o-img o-img-img"/>
                                     </div>
                                 </figure>
                             </div>
                             <div role="listitem" class="s-partners__item w-dyn-item">
                                 <figure class="s-logo">
-                                    <img alt="" loading="lazy" src="https://assets-global.website-files.com/6092c1945b43dc602a3e3dea/60a56f83fdd2efa07e968506_meteo.png" class="o-img is--z-3"/>
+                                    <img alt="" loading="lazy" src="{{asset('assets/Client_Logos/14.png')}}" class="o-img o-img-img is--z-3"/>
                                     <div class="s-logo__bg">
-                                        <img src="https://assets-global.website-files.com/6092932467852e3af1741898/60a5706b33ac0f5d991f8e0d_s-logo-bg.svg" loading="lazy" alt="" class="o-img"/>
+                                        <img src="https://assets-global.website-files.com/6092932467852e3af1741898/60a5706b33ac0f5d991f8e0d_s-logo-bg.svg" loading="lazy" alt="" class="o-img o-img-img"/>
                                     </div>
                                 </figure>
                             </div>
                             <div role="listitem" class="s-partners__item w-dyn-item">
                                 <figure class="s-logo">
-                                    <img alt="" loading="lazy" src="https://assets-global.website-files.com/6092c1945b43dc602a3e3dea/60a56f7452db1a6beabf60ca_defense%20ministry.png" class="o-img is--z-3"/>
+                                    <img alt="" loading="lazy" src="{{asset('assets/Client_Logos/15.png')}}" class="o-img o-img-img is--z-3"/>
                                     <div class="s-logo__bg">
-                                        <img src="https://assets-global.website-files.com/6092932467852e3af1741898/60a5706b33ac0f5d991f8e0d_s-logo-bg.svg" loading="lazy" alt="" class="o-img"/>
+                                        <img src="https://assets-global.website-files.com/6092932467852e3af1741898/60a5706b33ac0f5d991f8e0d_s-logo-bg.svg" loading="lazy" alt="" class="o-img o-img-img"/>
+                                    </div>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="s-partners w-dyn-list">
+                        <div role="list" class="s-partners__list u-direct-r w-dyn-items">
+                            <div role="listitem" class="s-partners__item w-dyn-item">
+                                <figure class="s-logo">
+                                    <img alt="" loading="lazy" src="{{asset('assets/Client_Logos/16.webp')}}" class="o-img o-img-img is--z-3"/>
+                                    <div class="s-logo__bg">
+                                        <img src="https://assets-global.website-files.com/6092932467852e3af1741898/60a5706b33ac0f5d991f8e0d_s-logo-bg.svg" loading="lazy" alt="" class="o-img o-img-img"/>
+                                    </div>
+                                </figure>
+                            </div>
+                            <div role="listitem" class="s-partners__item w-dyn-item">
+                                <figure class="s-logo">
+                                    <img alt="" loading="lazy" src="{{asset('assets/Client_Logos/17.jpeg')}}" class="o-img o-img-img is--z-3"/>
+                                    <div class="s-logo__bg">
+                                        <img src="https://assets-global.website-files.com/6092932467852e3af1741898/60a5706b33ac0f5d991f8e0d_s-logo-bg.svg" loading="lazy" alt="" class="o-img o-img-img"/>
+                                    </div>
+                                </figure>
+                            </div>
+                            <div role="listitem" class="s-partners__item w-dyn-item">
+                                <figure class="s-logo">
+                                    <img alt="" loading="lazy" src="{{asset('assets/Client_Logos/18.png')}}" class="o-img o-img-img is--z-3"/>
+                                    <div class="s-logo__bg">
+                                        <img src="https://assets-global.website-files.com/6092932467852e3af1741898/60a5706b33ac0f5d991f8e0d_s-logo-bg.svg" loading="lazy" alt="" class="o-img o-img-img"/>
                                     </div>
                                 </figure>
                             </div>
@@ -19116,6 +19117,7 @@
                 </div>
                 <div class="c-rside-grad"></div>
             </section>
+
             <section class="o-section is--mt-318 m--mt-240 s--mt-180">
                 @include('Front.ContactSection')
             </section>

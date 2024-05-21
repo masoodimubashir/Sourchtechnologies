@@ -12,5 +12,4 @@ Route::view('/our-team', 'Front.Team.team')->name('our_team');
 Route::view('/blog', 'Front.Blog.blog')->name('blog');
 Route::view('/contact', 'Front.Contact.contact')->name('contact');
 Route::view('/privacy-policy', 'Front.PrivacyPolicy.privacy-policy')->name('privacy_policy');
-
 Route::post('contact-us', ContactUsController::class)->name('contact_us');

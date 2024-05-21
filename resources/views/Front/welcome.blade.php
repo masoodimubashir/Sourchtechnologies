@@ -69,23 +69,8 @@
                             <h2 class="o-h-72 gradient">
                                 <span data-w-id="767439cf-d2c1-f0ab-62b0-47905e2ce8e9"
                                     style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
-                                    class="u-anim-h72line-1 s--inl"><br><br>Sourch </span>
-                                <span data-w-id="03f397bb-a8ab-5f41-ca65-bb5e7a18dd76"
-                                    style="opacity:0;-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-                                    class="u-anim-h72line-4 s--inl">Technologies </span>
-                                <span data-w-id="843e78b2-6120-f7c3-5c2b-b94ad6b0c09d"
-                                    style="opacity:0;-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-                                    class="u-anim-h72line-2 s--inl">Where World</span>
-                                <span data-w-id="7c26233c-ddeb-1f49-a0ba-6508fa944437"
-                                    style="opacity:0;-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-                                    class="u-anim-h72line-3 s--inl">Merge with </span>
-                                <span data-w-id="03f397bb-a8ab-5f41-ca65-bb5e7a18dd76"
-                                    style="opacity:0;-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-                                    class="u-anim-h72line-4 s--inl">Marketing </span>
-
-                                <span data-w-id="03f397bb-a8ab-5f41-ca65-bb5e7a18dd76"
-                                    style="opacity:0;-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-                                    class="u-anim-h72line-4 s--inl">Brilliance!</span>
+                                    class="u-anim-h72line-1 s--inl"><br><br>Sourch Technologies Where World Merge with
+                                    Marketing Brilliance! </span>
                             </h2>
                         </div>
 
@@ -108,8 +93,8 @@
                                             <path class="u-trotl" fill-rule="evenodd" clip-rule="evenodd"
                                                 d="M14.3569 87.7952C33.5735 109.137 66.453 110.861 87.7952 91.644C109.137 72.4273 110.861 39.5479 91.644 18.2057C72.4273 -3.13658 39.5479 -4.85972 18.2057 14.3569C-3.13658 33.5735 -4.85972 66.453 14.3569 87.7952Z"
                                                 stroke="white" stroke-width="8" stroke-dasharray="1 81" />
-                                            <circle cx="53.0005" cy="53.0004" r="52" stroke="white" stroke-width="0.5"
-                                                stroke-dasharray="2" />
+                                            <circle cx="53.0005" cy="53.0004" r="52" stroke="white"
+                                                stroke-width="0.5" stroke-dasharray="2" />
                                             <circle class="u-trtarget" cx="53" cy="53" r="45"
                                                 fill="currentColor" fill-opacity="1" />
                                             <path fill-rule="evenodd" clip-rule="evenodd"
@@ -143,7 +128,8 @@
                                         style="background-image:url(&quot;https://assets-global.website-files.com/6092932467852e3af1741898/60a1673690c710d3de8be65f_env-sol-poster-00001.jpg&quot;)"
                                         muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover">
                                         <source src="{{ asset('assets/digital video.mp4') }}" data-wf-ignore="true">
-                                        <source src="{{ asset('assets/digitalmarketing.webp') }}" data-wf-ignore="true">
+                                        <source src="{{ asset('assets/digitalmarketing.webp') }}"
+                                            data-wf-ignore="true">
                                     </video>
                                 </figure>
                             </div>
@@ -425,10 +411,11 @@
         </section>
         <header class="o-section s--pt-88">
             <div class="o-container">
-                <h2 class="o-h-72">
+                <h2 class="o-h-56">
                     <span data-w-id="767439cf-d2c1-f0ab-62b0-47905e2ce8e9"
                         style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
-                        class="u-anim-h72line-1 s--inl"><br><br>Access The Powerful And Helpful Features. With Our Dashboard & CRM to Manage Your Business. </span>
+                        class="u-h56line-1 m--inl"><br><br>Access The Powerful And Helpful Features. With Our
+                        Dashboard <br> & CRM to Manage Your Business. </span>
 
 
                 </h2>
@@ -441,12 +428,7 @@
                             <div class="o-txt-40">
                                 <span data-w-id="7fb630e4-a03a-aab5-d5c0-f75422b84396"
                                     style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
-                                    class="u-anim-txtline-1">Unlock Your Potential: Your Network is Your Net
-                                    Worth</span>
-
-                                <span data-w-id="7fb630e4-a03a-aab5-d5c0-f75422b84396"
-                                    style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
-                                    class="u-anim-txtline-1">
+                                    class="u-anim-txtline-1">Unlock Your Potential: Your Network is Your Net Worth
                                     Experience the Strength of Simplicity. Unify Your Data, Manage Projects & Teams,
                                     Reach & Engage with Ideal Prospects effortlessly on a single platform Specifically
                                     designed to scale with your business.</span>
@@ -483,8 +465,8 @@
                                 </div>
 
                             </div>
-                            <img src="{{ asset('assets/dashboard1.png') }}" loading="lazy" alt="Environmental solution"
-                                class="o-img u-hover" />
+                            <img src="{{ asset('assets/dashboard1.png') }}" loading="lazy"
+                                alt="Environmental solution" class="o-img u-hover" />
                             <div class="c-sol-header-vid__filter"></div>
                             <div class="c-header__vid m--none w-embed">
                                 <figure data-poster-url="assets" data-video-urls="" data-autoplay="false"
@@ -498,7 +480,7 @@
                             </div>
                         </a>
                         <a id="u-pls-2" data-w-id="24c75aa5-1925-e64d-1200-695a59d0f86c"
-                            style="opacity:1;-webkit-transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+                            style="-webkit-transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
                             href="/It-consulting.html" class="o-l656x900 is--abs-l-477 m--l435 w-inline-block">
 
 

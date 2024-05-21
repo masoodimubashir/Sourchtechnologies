@@ -90,7 +90,7 @@
                     alt="Defense Solution IMG" class="s-o-img u-opc" />
             </div>
 
-           
+
             <div class="o-container is--z-3">
 
                 <div class="o-layout is--pt-130--pl-362 m--pt-120--pl-57 s--pt-356--pl-0">
@@ -137,13 +137,7 @@
 
         <section class="o-section is--mt-265 md--mt-200 sm--mt-150" style="padding-top: 5rem">
             <div class="o-container is--z-3 md--vflex">
-                <div data-w-id="d00272e5-a7a2-d740-6265-132f7be6c6a4" class="c-bpg">
-
-                    <figure style="opacity:0" class="c-bpg__img">
-                        <img src="" loading="lazy" alt="" class="o-img" />
-                    </figure>
-
-                </div>
+            
                 <div class="o-l503 is--ml-84 md--ml-52 sm--auto">
                     <h2 class="o-h-72">
                         Web Development <br />

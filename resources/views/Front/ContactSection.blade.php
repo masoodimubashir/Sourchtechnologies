@@ -166,8 +166,8 @@
         <figure data-w-id="ff10bab6-0efd-c0c1-fb60-4ccaa18d666b"
             class="o-l559 is--px-39--pt-90--pb-103--str m--l614--px-76--mt-n88--pt-126 s--100--py-0--pt-130--pb-40 u-size">
             <div class="c-form is--z-2 w-form">
-                <form id="email-form" action="{{route('contact_us')}}" data-name="Email Form" method="get" class="c-form__wrap"
-                    data-wf-page-id="6092932467852e33b4741899"
+                <form id="email-form" action="{{ route('contact_us') }}" data-name="Email Form" method="POST"
+                    class="c-form__wrap" data-wf-page-id="6092932467852e33b4741899"
                     data-wf-element-id="85304386-4f17-450c-0536-1a6564f6f853">
 
                     @csrf
@@ -177,12 +177,22 @@
                             cooperation, we &#x27;d love to hear from you.</p>
                     </div>
                     <div class="o-layout is--mt-66 s--mt-40">
-                        <input class="c-form__field w-input" maxlength="256" name="Email" data-name="Email"
-                            placeholder="Email" type="email" name="email" id="Email" required="" />
+                        <input class="c-form__field w-input" maxlength="256"
+                            placeholder="Email" type="email" name="email" id="Email" />
+                        @error('email')
+                            <strong style="color: red; font:700">
+                                {{ $message }}
+                            </strong>
+                        @enderror
                     </div>
                     <div class="o-layout is--mt-66 s--mt-24">
-                        <textarea placeholder="Message" maxlength="5000" id="Message" name="message" data-name="Message"
+                        <textarea placeholder="Message" maxlength="5000" id="Message" name="message"
                             class="c-form__txtarea w-input"></textarea>
+                        @error('message')
+                            <strong style="color: red; font:700">
+                                {{ $message }}
+                            </strong>
+                        @enderror
                         <div class="u-ta-rz">
                             <div class="u-ta-rz__item w-embed">
                                 <svg width="100%" height="100%" viewBox="0 0 26 13" fill="none"

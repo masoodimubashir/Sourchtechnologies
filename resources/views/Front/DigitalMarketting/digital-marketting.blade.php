@@ -79,7 +79,7 @@
                 </figure>
                 <img src="" loading="lazy" alt="Environment Solution IMG" class="s-o-img" />
             </div>
-           
+
             <div class="o-container is--z-3" style="padding-left: 10rem !important">
 
                 <div class=" is--pt-130--pl-362 m--pt-120--pl-57 s--pt-356--pl-0">
@@ -132,8 +132,31 @@
                                     leads.Stay ahead of the competition and drive growth with our reliable and targeted
                                     approach. </span>
                             </p>
+
                         </div>
+                        <style>
+                            .learn_more {
+
+                                margin-top: 2rem !important;
+                            }
+
+                            .learn_more a {
+                                color: white;
+                                font: 600;
+                                font-size: 2rem;
+                            }
+
+                            .learn_more a:hover {
+                                color: gray
+                            }
+                        </style>
+                        <div class="learn_more">
+                            <a href="">Learn More</a>
+                        </div>
+
                     </div>
+
+
                 </div>
                 <div data-w-id="03b1306c-723f-f3cb-4434-c432e347caee"
                     class="o-flex-ss is--mt-123--pl34--ml-n40 m--mt72--pl-56--obo s--p-0--mt-56rem">
@@ -322,7 +345,12 @@
             <div class="o-container is--z-3">
                 <div class="o-layout is--pt-208--pl-83 m--pl-57--pt-142 s--pl-0--pt-40">
                     <div class="o-l1452 m--l527 s--100">
-                        <h1 class="o-h-112 m--57">Appointments Setting</h1>
+                        <h1 class="o-h-112 m--57">Appointments Setting
+                            <div class="learn_more">
+                                <a href="">Learn More</a>
+                            </div>
+                        </h1>
+
                         <div class="o-layout is--mt72 m--mt-100 s--mt-32 w-clearfix">
                             <div class="o-l132x110--float m--none">
                                 <figure class="c-meteo-ico">
@@ -338,7 +366,11 @@
                                         </svg>
                                     </div>
                                 </figure>
+
+
                             </div>
+
+
                             <p class="o-h-56">
                                 <span
                                     style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
@@ -386,21 +418,15 @@
                 <div class="o-flex-ss is--ml-80--pt-144 m--ml-57--pt-164--obo s--pt-0">
                     <div class="o-l522 m--l484 s--100">
                         <h1 class="o-h-112 m--57">Soical Media Marketing</h1>
+                        <div class="learn_more">
+                            <a href="">Learn More</a>
+                        </div>
                     </div>
                     <div class="o-l604 is--ml-239--pt-17 m--l484--ml-0--pt-72 s--100--pt-48">
                         <p class="o-txt-20--med">
                             <span
                                 style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
-                                class="u-anim-txtline-1--med">Sourch Technologies excels in Social Media Marketing
-                                (SMM), driving results through tailored </span>
-                            <span
-                                style="opacity:0;-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-                                class="u-anim-txtline-2--med">strategies on platforms like Facebook, Instagram,
-                                Twitter, and LinkedIn. Let us help you engage </span>
-                            <span
-                                style="opacity:0;-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-                                class="u-anim-txtline-3--med">your audience, build brand awareness, and drive
-                                conversions.</span>
+                                class="u-anim-txtline-1--med">Sourch Technologies excels in Social Media Marketing (SMM), driving results through tailored strategies on platforms like Facebook, Instagram, Twitter, and LinkedIn. Let us help you engage your audience, build brand awareness, and drive conversions.</span>
                         </p>
 
                     </div>
@@ -412,6 +438,9 @@
                 <div class="o-layout is--mt-312--ml-72 m--ml-57--mt-0 s--ml-0--mt-0">
                     <div class="o-l1130 m--l567 s--100">
                         <h1 class="o-h-112 m--57">Email Marketing</h1>
+                        <div class="learn_more">
+                            <a href="">Learn More</a>
+                        </div>
                         <div class="o-layout is--mt72 s--mt-32 w-clearfix">
                             <div class="o-l132x110--float m--none">
                                 <figure class="c-meteo-ico">
@@ -432,10 +461,10 @@
                                 <span
                                     style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
                                     class="u-h56line-1">Sourch Technologies elevates your marketing with expert Email
-                                    Marketing services.
-                                    Our tailored strategies drive engagement, conversions, and
-                                    brand loyalty,
-                                    reaching the right audience at the right time. </span>
+                                    Marketing services. Our tailored strategies drive engagement, conversions, and brand
+                                    loyalty, reaching the right audience at the right time.
+
+                                </span>
                             </p>
                         </div>
                     </div>

@@ -201,7 +201,7 @@
                                         <small>l</small>
                                         <small>t</small>
                                 </div>
-                               
+
                             </div>
                         </span>
                     </h3>
@@ -575,8 +575,6 @@
                 class="o-img md--cover" />
         </figure>
     </section>
-
-
 
     <section class="o-section is--mt-382 md--mt-120 sm--mt-0">
         <div class="o-container is--z-3">

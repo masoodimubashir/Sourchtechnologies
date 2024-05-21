@@ -249,7 +249,7 @@
                                 <h4 class="o-h-32">Social Media Marketing</h4>
                             </div>
                         </div>
-                        <a href="contact-us.php" class="o-flex-cs is--mt-93 u-anim-cta m--none w-inline-block">
+                        <a href="https://calendly.com/sourch_technologies" class="o-flex-cs is--mt-93 u-anim-cta m--none w-inline-block">
                             <div class="c-bttn--rel">
                                 <div class="c-bttn__item-1">
                                     <div class="c-bttn w-embed">
@@ -282,7 +282,7 @@
                                 </div>
                             </div>
                             <div class="o-layout is--ml-42">
-                                <div class="o-txt-20--med u-anim-cta--inner">Contact Us</div>
+                                <div class="o-txt-20--med u-anim-cta--inner">Book The meeting</div>
                             </div>
                         </a>
                         <figure data-w-id="4babe113-5155-e26b-b802-428b60a98055" class="c-curv-wrapper m--none">
@@ -1138,31 +1138,25 @@
                     <div role="list" class="s-partners__list u-direct-r w-dyn-items">
                         <div role="listitem" class="s-partners__item w-dyn-item">
                             <figure class="s-logo">
-                                <img alt="" loading="lazy" src="{{ asset('assets/Client_Logos/1.jpg') }}"
-                                    class="o-img-img is--z-3" />
+                                <img alt="" loading="lazy" src="{{asset('assets/Client_Logos/1.jpg')}}" class="o-img o-img-img is--z-3"/>
                                 <div class="s-logo__bg">
-                                    <img src="{{ asset('assets/Client_Logos/2.jpg') }}" loading="lazy"
-                                        alt="" class="o-img-img" />
+                                    <img src="https://assets-global.website-files.com/6092932467852e3af1741898/60a5706b33ac0f5d991f8e0d_s-logo-bg.svg" loading="lazy" alt="" class="o-img o-img-img"/>
                                 </div>
                             </figure>
                         </div>
                         <div role="listitem" class="s-partners__item w-dyn-item">
                             <figure class="s-logo">
-                                <img alt="" loading="lazy" src="{{ asset('assets/Client_Logos/3.jpg') }}"
-                                    class="o-img-img is--z-3" />
+                                <img alt="" loading="lazy" src="{{asset('assets/Client_Logos/2.jpg')}}" class="o-img o-img-img is--z-3"/>
                                 <div class="s-logo__bg">
-                                    <img src="{{ asset('assets/Client_Logos/4.png') }}" loading="lazy"
-                                        alt="" class="o-img-img" />
+                                    <img src="https://assets-global.website-files.com/6092932467852e3af1741898/60a5706b33ac0f5d991f8e0d_s-logo-bg.svg" loading="lazy" alt="" class="o-img o-img-img"/>
                                 </div>
                             </figure>
                         </div>
                         <div role="listitem" class="s-partners__item w-dyn-item">
                             <figure class="s-logo">
-                                <img alt="" loading="lazy" src="{{ asset('assets/Client_Logos/5.png') }}"
-                                    class="o-img-img is--z-3" />
+                                <img alt="" loading="lazy" src="{{asset('assets/Client_Logos/3.jpg')}}" class="o-img o-img-img is--z-3"/>
                                 <div class="s-logo__bg">
-                                    <img src="{{ asset('assets/Client_Logos/6.png') }}" loading="lazy"
-                                        alt="" class="o-img-img" />
+                                    <img src="https://assets-global.website-files.com/6092932467852e3af1741898/60a5706b33ac0f5d991f8e0d_s-logo-bg.svg" loading="lazy" alt="" class="o-img o-img-img"/>
                                 </div>
                             </figure>
                         </div>
@@ -1172,31 +1166,25 @@
                     <div role="list" class="s-partners__list u-direct-r w-dyn-items">
                         <div role="listitem" class="s-partners__item w-dyn-item">
                             <figure class="s-logo">
-                                <img alt="" loading="lazy" src="{{ asset('assets/Client_Logos/7.jpg') }}"
-                                    class="o-img-img is--z-3" />
+                                <img alt="" loading="lazy" src="{{asset('assets/Client_Logos/4.png')}}" class="o-img o-img-img is--z-3"/>
                                 <div class="s-logo__bg">
-                                    <img src="{{ asset('assets/Client_Logos/8.png') }}" loading="lazy"
-                                        alt="" class="o-img-img" />
+                                    <img src="https://assets-global.website-files.com/6092932467852e3af1741898/60a5706b33ac0f5d991f8e0d_s-logo-bg.svg" loading="lazy" alt="" class="o-img o-img-img"/>
                                 </div>
                             </figure>
                         </div>
                         <div role="listitem" class="s-partners__item w-dyn-item">
                             <figure class="s-logo">
-                                <img alt="" loading="lazy" src="{{ asset('assets/Client_Logos/9.png') }}"
-                                    class="o-img-img is--z-3" />
+                                <img alt="" loading="lazy" src="{{asset('assets/Client_Logos/5.png')}}" class="o-img o-img-img is--z-3"/>
                                 <div class="s-logo__bg">
-                                    <img src="{{ asset('assets/Client_Logos/10.png') }}" loading="lazy"
-                                        alt="" class="o-img-img" />
+                                    <img src="https://assets-global.website-files.com/6092932467852e3af1741898/60a5706b33ac0f5d991f8e0d_s-logo-bg.svg" loading="lazy" alt="" class="o-img o-img-img"/>
                                 </div>
                             </figure>
                         </div>
                         <div role="listitem" class="s-partners__item w-dyn-item">
                             <figure class="s-logo">
-                                <img alt="" loading="lazy"
-                                    src="{{ asset('assets/Client_Logos/11.jpg') }}" class="o-img-img is--z-3" />
+                                <img alt="" loading="lazy" src="{{asset('assets/Client_Logos/6.png')}}" class="o-img o-img-img is--z-3"/>
                                 <div class="s-logo__bg">
-                                    <img src="{{ asset('assets/Client_Logos/12.jpeg') }}" loading="lazy"
-                                        alt="" class="o-img-img" />
+                                    <img src="https://assets-global.website-files.com/6092932467852e3af1741898/60a5706b33ac0f5d991f8e0d_s-logo-bg.svg" loading="lazy" alt="" class="o-img o-img-img"/>
                                 </div>
                             </figure>
                         </div>
@@ -1206,31 +1194,25 @@
                     <div role="list" class="s-partners__list u-direct-r w-dyn-items">
                         <div role="listitem" class="s-partners__item w-dyn-item">
                             <figure class="s-logo">
-                                <img alt="" loading="lazy"
-                                    src="{{ asset('assets/Client_Logos/13.png') }}" class="o-img-img is--z-3" />
+                                <img alt="" loading="lazy" src="{{asset('assets/Client_Logos/7.jpg')}}" class="o-img o-img-img is--z-3"/>
                                 <div class="s-logo__bg">
-                                    <img src="{{ asset('assets/Client_Logos/14.png') }}" loading="lazy"
-                                        alt="" class="o-img-img" />
+                                    <img src="https://assets-global.website-files.com/6092932467852e3af1741898/60a5706b33ac0f5d991f8e0d_s-logo-bg.svg" loading="lazy" alt="" class="o-img o-img-img"/>
                                 </div>
                             </figure>
                         </div>
                         <div role="listitem" class="s-partners__item w-dyn-item">
                             <figure class="s-logo">
-                                <img alt="" loading="lazy"
-                                    src="{{ asset('assets/Client_Logos/15.png') }}" class="o-img-img is--z-3" />
+                                <img alt="" loading="lazy" src="{{asset('assets/Client_Logos/8.png')}}" class="o-img o-img-img is--z-3"/>
                                 <div class="s-logo__bg">
-                                    <img src="{{ asset('assets/Client_Logos/16.webp') }}" loading="lazy"
-                                        alt="" class="o-img-img" />
+                                    <img src="https://assets-global.website-files.com/6092932467852e3af1741898/60a5706b33ac0f5d991f8e0d_s-logo-bg.svg" loading="lazy" alt="" class="o-img o-img-img"/>
                                 </div>
                             </figure>
                         </div>
                         <div role="listitem" class="s-partners__item w-dyn-item">
                             <figure class="s-logo">
-                                <img alt="" loading="lazy"
-                                    src="{{ asset('assets/Client_Logos/17.jpeg') }}" class="o-img-img is--z-3" />
+                                <img alt="" loading="lazy" src="{{asset('assets/Client_Logos/9.png')}}" class="o-img o-img-img is--z-3"/>
                                 <div class="s-logo__bg">
-                                    <img src="{{ asset('assets/Client_Logos/18.png') }}" loading="lazy"
-                                        alt="" class="o-img-img" />
+                                    <img src="https://assets-global.website-files.com/6092932467852e3af1741898/60a5706b33ac0f5d991f8e0d_s-logo-bg.svg" loading="lazy" alt="" class="o-img o-img-img"/>
                                 </div>
                             </figure>
                         </div>
@@ -1242,31 +1224,25 @@
                     <div role="list" class="s-partners__list u-direct-r w-dyn-items">
                         <div role="listitem" class="s-partners__item w-dyn-item">
                             <figure class="s-logo">
-                                <img alt="" loading="lazy"
-                                    src="{{ asset('assets/Client_Logos/19.png') }}" class="o-img-img is--z-3" />
+                                <img alt="" loading="lazy" src="{{asset('assets/Client_Logos/10.png')}}" class="o-img is--z-3"/>
                                 <div class="s-logo__bg">
-                                    <img src="{{ asset('assets/Client_Logos/20.jpeg') }}" loading="lazy"
-                                        alt="" class="o-img-img" />
+                                    <img src="https://assets-global.website-files.com/6092932467852e3af1741898/60a5706b33ac0f5d991f8e0d_s-logo-bg.svg" loading="lazy" alt="" class="o-img o-img-img"/>
                                 </div>
                             </figure>
                         </div>
                         <div role="listitem" class="s-partners__item w-dyn-item">
                             <figure class="s-logo">
-                                <img alt="" loading="lazy"
-                                    src="{{ asset('assets/Client_Logos/21.png') }}" class="o-img-img is--z-3" />
+                                <img alt="" loading="lazy" src="{{asset('assets/Client_Logos/11.jpg')}}" class="o-img o-img-img is--z-3"/>
                                 <div class="s-logo__bg">
-                                    <img src="{{ asset('assets/Client_Logos/22.png') }}" loading="lazy"
-                                        alt="" class="o-img-img" />
+                                    <img src="https://assets-global.website-files.com/6092932467852e3af1741898/60a5706b33ac0f5d991f8e0d_s-logo-bg.svg" loading="lazy" alt="" class="o-img o-img-img"/>
                                 </div>
                             </figure>
                         </div>
                         <div role="listitem" class="s-partners__item w-dyn-item">
                             <figure class="s-logo">
-                                <img alt="" loading="lazy"
-                                    src="{{ asset('assets/Client_Logos/23.jpg') }}" class="o-img-img is--z-3" />
+                                <img alt="" loading="lazy" src="{{asset('assets/Client_Logos/12.jpeg')}}" class="o-img o-img-img is--z-3"/>
                                 <div class="s-logo__bg">
-                                    <img src="{{ asset('assets/Client_Logos/24.webp') }}" loading="lazy"
-                                        alt="" class="o-img-img" />
+                                    <img src="https://assets-global.website-files.com/6092932467852e3af1741898/60a5706b33ac0f5d991f8e0d_s-logo-bg.svg" loading="lazy" alt="" class="o-img o-img-img"/>
                                 </div>
                             </figure>
                         </div>
@@ -1276,31 +1252,25 @@
                     <div role="list" class="s-partners__list u-direct-r w-dyn-items">
                         <div role="listitem" class="s-partners__item w-dyn-item">
                             <figure class="s-logo">
-                                <img alt="" loading="lazy"
-                                    src="{{ asset('assets/Client_Logos/25.png') }}" class="o-img-img is--z-3" />
+                                <img alt="" loading="lazy" src="{{asset('assets/Client_Logos/13.png')}}" class="o-img o-img-img is--z-3"/>
                                 <div class="s-logo__bg">
-                                    <img src="{{ asset('assets/Client_Logos/26.png') }}" loading="lazy"
-                                        alt="" class="o-img-img" />
+                                    <img src="https://assets-global.website-files.com/6092932467852e3af1741898/60a5706b33ac0f5d991f8e0d_s-logo-bg.svg" loading="lazy" alt="" class="o-img o-img-img"/>
                                 </div>
                             </figure>
                         </div>
                         <div role="listitem" class="s-partners__item w-dyn-item">
                             <figure class="s-logo">
-                                <img alt="" loading="lazy"
-                                    src="{{ asset('assets/Client_Logos/27.png') }}" class="o-img-img is--z-3" />
+                                <img alt="" loading="lazy" src="{{asset('assets/Client_Logos/14.png')}}" class="o-img o-img-img is--z-3"/>
                                 <div class="s-logo__bg">
-                                    <img src="{{ asset('assets/Client_Logos/28.png') }}" loading="lazy"
-                                        alt="" class="o-img-img" />
+                                    <img src="https://assets-global.website-files.com/6092932467852e3af1741898/60a5706b33ac0f5d991f8e0d_s-logo-bg.svg" loading="lazy" alt="" class="o-img o-img-img"/>
                                 </div>
                             </figure>
                         </div>
                         <div role="listitem" class="s-partners__item w-dyn-item">
                             <figure class="s-logo">
-                                <img alt="" loading="lazy"
-                                    src="{{ asset('assets/Client_Logos/29.png') }}" class="o-img-img is--z-3" />
+                                <img alt="" loading="lazy" src="{{asset('assets/Client_Logos/15.png')}}" class="o-img o-img-img is--z-3"/>
                                 <div class="s-logo__bg">
-                                    <img src="{{ asset('assets/Client_Logos/30.png') }}" loading="lazy"
-                                        alt="" class="o-img-img" />
+                                    <img src="https://assets-global.website-files.com/6092932467852e3af1741898/60a5706b33ac0f5d991f8e0d_s-logo-bg.svg" loading="lazy" alt="" class="o-img o-img-img"/>
                                 </div>
                             </figure>
                         </div>
@@ -1310,31 +1280,25 @@
                     <div role="list" class="s-partners__list u-direct-r w-dyn-items">
                         <div role="listitem" class="s-partners__item w-dyn-item">
                             <figure class="s-logo">
-                                <img alt="" loading="lazy"
-                                    src="{{ asset('assets/Client_Logos/31.png') }}" class="o-img-img is--z-3" />
+                                <img alt="" loading="lazy" src="{{asset('assets/Client_Logos/16.webp')}}" class="o-img o-img-img is--z-3"/>
                                 <div class="s-logo__bg">
-                                    <img src="{{ asset('assets/Client_Logos/32.png') }}" loading="lazy"
-                                        alt="" class="o-img-img" />
+                                    <img src="https://assets-global.website-files.com/6092932467852e3af1741898/60a5706b33ac0f5d991f8e0d_s-logo-bg.svg" loading="lazy" alt="" class="o-img o-img-img"/>
                                 </div>
                             </figure>
                         </div>
                         <div role="listitem" class="s-partners__item w-dyn-item">
                             <figure class="s-logo">
-                                <img alt="" loading="lazy"
-                                    src="{{ asset('assets/Client_Logos/33.png') }}" class="o-img-img is--z-3" />
+                                <img alt="" loading="lazy" src="{{asset('assets/Client_Logos/17.jpeg')}}" class="o-img o-img-img is--z-3"/>
                                 <div class="s-logo__bg">
-                                    <img src="{{ asset('assets/Client_Logos/34.png') }}" loading="lazy"
-                                        alt="" class="o-img-img" />
+                                    <img src="https://assets-global.website-files.com/6092932467852e3af1741898/60a5706b33ac0f5d991f8e0d_s-logo-bg.svg" loading="lazy" alt="" class="o-img o-img-img"/>
                                 </div>
                             </figure>
                         </div>
                         <div role="listitem" class="s-partners__item w-dyn-item">
                             <figure class="s-logo">
-                                <img alt="" loading="lazy"
-                                    src="{{ asset('assets/Client_Logos/35.png') }}" class="o-img-img is--z-3" />
+                                <img alt="" loading="lazy" src="{{asset('assets/Client_Logos/18.png')}}" class="o-img o-img-img is--z-3"/>
                                 <div class="s-logo__bg">
-                                    <img src="{{ asset('assets/Client_Logos/36.png') }}" loading="lazy"
-                                        alt="" class="o-img-img" />
+                                    <img src="https://assets-global.website-files.com/6092932467852e3af1741898/60a5706b33ac0f5d991f8e0d_s-logo-bg.svg" loading="lazy" alt="" class="o-img o-img-img"/>
                                 </div>
                             </figure>
                         </div>
