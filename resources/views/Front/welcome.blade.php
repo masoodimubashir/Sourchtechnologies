@@ -419,7 +419,7 @@
 
 
                 </h2>
-                <div class="o-flex-cs is--pl-79 m--pl-52--vss--pt-77 s--ml-0--mt-30">
+                <div class="o-flex-cs o-flex-cs-1 is--pl-79 m--pl-52--vss--pt-77 s--ml-0--mt-30">
 
                     <div class="o-l565 is--ml-125 m--452--m-0 s--auto">
 

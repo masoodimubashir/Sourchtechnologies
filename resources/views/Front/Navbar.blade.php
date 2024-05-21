@@ -18,7 +18,8 @@
                     </div>
                 </figure>
                 <div class="c-nav__summary__link-wrapper u-anim-hide">
-                    <a href="{{route('home')}}" aria-current="page" class="c-nav__summary__link u-1 w-inline-block w--current">
+                    <a href="{{ route('home') }}" aria-current="page"
+                        class="c-nav__summary__link u-1 w-inline-block {{ Route::is('home') ? 'w--current' : '' }}">
                         <div class="o-ltxt-14">Home</div>
                     </a>
                 </div>
@@ -41,22 +42,28 @@
                     </div>
                 </figure>
                 <div class="c-nav__summary__link-wrapper is--mt-n36 u-anim-hide">
-                    <a href="{{ route('about_us') }}" class="c-nav__summary__link u-2 w-inline-block">
+                    <a href="{{ route('about_us') }}"
+                        class="c-nav__summary__link u-2 w-inline-block {{ Route::is('about_us') ? 'w--current' : '' }}">
                         <div class="o-ltxt-14">About Us</div>
                     </a>
-                    <a href="{{ route('digital_marketting') }}" class="c-nav__summary__link u-3 w-inline-block">
+                    <a href="{{ route('digital_marketting') }}"
+                        class="c-nav__summary__link u-3 w-inline-block {{ Route::is('digital_marketting') ? 'w--current' : '' }}">
                         <div class="o-ltxt-14 is--mt-16">Digital Marketing</div>
                     </a>
-                    <a href="{{ route('it_solutions') }}" class="c-nav__summary__link u-4 w-inline-block">
+                    <a href="{{ route('it_solutions') }}"
+                        class="c-nav__summary__link u-4 w-inline-block {{ Route::is('it_solutions') ? 'w--current' : '' }}">
                         <div class="o-ltxt-14 is--mt-16">IT Solutions</div>
                     </a>
-                    <a href="{{ route('case_studies') }}" class="c-nav__summary__link u-5 w-inline-block">
+                    <a href="{{ route('case_studies') }}"
+                        class="c-nav__summary__link u-5 w-inline-block {{ Route::is('case_studies') ? 'w--current' : '' }}">
                         <div class="o-ltxt-14 is--mt-16">Case Studies</div>
                     </a>
-                    <a href="{{ route('our_team') }}" class="c-nav__summary__link u-5 w-inline-block">
+                    <a href="{{ route('our_team') }}"
+                        class="c-nav__summary__link u-5 w-inline-block {{ Route::is('our_team') ? 'w--current' : '' }}">
                         <div class="o-ltxt-14 is--mt-16">Our Team</div>
                     </a>
-                    <a href="{{ route('blog') }}" class="c-nav__summary__link u-5 w-inline-block">
+                    <a href="{{ route('blog') }}"
+                        class="c-nav__summary__link u-5 w-inline-block {{ Route::is('blog') ? 'w--current' : '' }}">
                         <div class="o-ltxt-14 is--mt-16">Blogs</div>
                     </a>
                 </div>
@@ -114,32 +121,32 @@
         </figure>
         <div class="s-c-nav__drop__wrap">
             <div class="s-c-nav__summary">
-                <a data-w-id="faa77560-42fc-d504-b964-4e5c6bf2414a" href="index.php" aria-current="page"
-                    class="s-c-nav__summary__item w-inline-block w--current">
+                <a data-w-id="faa77560-42fc-d504-b964-4e5c6bf2414a" href="{{ route('home') }}" aria-current="page"
+                    class="s-c-nav__summary__item w-inline-block {{ Route::is('home') ? 'w--current' : '' }}">
                     <div class="o-ltxt-20--med">Home</div>
                 </a>
                 <a data-w-id="1fa6c56e-7b5d-e625-eab6-2371015a94b9" href="{{ route('about_us') }}"
-                    class="s-c-nav__summary__item is--mt-16 u-anim-2 w-inline-block">
+                    class="s-c-nav__summary__item is--mt-16 u-anim-2 w-inline-block {{ Route::is('about_us') ? 'w--current' : '' }}">
                     <div class="o-ltxt-20--med">About Us</div>
                 </a>
                 <a data-w-id="ecc9166d-4dbd-1292-05c6-91726f78faab" href="{{ route('digital_marketting') }}"
-                    class="s-c-nav__summary__item is--mt-16 u-anim-3 w-inline-block">
+                    class="s-c-nav__summary__item is--mt-16 u-anim-3 w-inline-block {{ Route::is('digital_marketting') ? 'w--current' : '' }}">
                     <div class="o-ltxt-20--med">Digital Marketing</div>
                 </a>
                 <a data-w-id="b67341f1-32c6-f7e5-cd78-483add1fa870" href="{{ route('it_solutions') }}"
-                    class="s-c-nav__summary__item is--mt-16 u-anim-4 w-inline-block">
+                    class="s-c-nav__summary__item is--mt-16 u-anim-4 w-inline-block {{ Route::is('it_solutions') ? 'w--current' : '' }}">
                     <div class="o-ltxt-20--med">IT Solutions</div>
                 </a>
                 <a data-w-id="8fbd5525-4b7e-d692-9546-60f82fdfb4e0" href="{{ route('case_studies') }}"
-                    class="s-c-nav__summary__item is--mt-16 u-anim-5 w-inline-block">
+                    class="s-c-nav__summary__item is--mt-16 u-anim-5 w-inline-block {{ Route::is('case_studies') ? 'w--current' : '' }}">
                     <div class="o-ltxt-20--med">Case Studies</div>
                 </a>
                 <a data-w-id="8fbd5525-4b7e-d692-9546-60f82fdfb4e0" href="{{ route('our_team') }}"
-                    class="s-c-nav__summary__item is--mt-16 u-anim-5 w-inline-block">
+                    class="s-c-nav__summary__item is--mt-16 u-anim-5 w-inline-block {{ Route::is('our_team') ? 'w--current' : '' }}">
                     <div class="o-ltxt-20--med">Our Team</div>
                 </a>
                 <a data-w-id="8fbd5525-4b7e-d692-9546-60f82fdfb4e0" href="{{ route('blog') }}"
-                    class="s-c-nav__summary__item is--mt-16 u-anim-5 w-inline-block">
+                    class="s-c-nav__summary__item is--mt-16 u-anim-5 w-inline-block {{ Route::is('blog') ? 'w--current' : '' }}">
                     <div class="o-ltxt-20--med">Blogs</div>
                 </a>
             </div>
