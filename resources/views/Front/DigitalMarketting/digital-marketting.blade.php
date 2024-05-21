@@ -59,9 +59,7 @@
             <div data-w-id="d1fdc61e-ced7-ac7e-7bb8-7671a16ded78"
                 style="-webkit-transform:translate3d(20%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(20%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(20%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(20%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
                 class="c-sol-header-vid">
-                <figure class="c-sol-header-vid__texture">
-                    <img src="assets/" loading="lazy" alt="" class="o-img s--cover" />
-                </figure>
+            
                 <div class="c-sol-header-vid__filter"></div>
                 <figure
                     data-poster-url="https://assets-global.website-files.com/6092932467852e3af1741898/60a7b5c08222b2fbdd53d192_video_cut_1_1920x1080-poster-00001.jpg"
