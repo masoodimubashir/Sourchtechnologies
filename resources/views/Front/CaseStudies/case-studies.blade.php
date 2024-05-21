@@ -95,8 +95,40 @@
                                     </svg>
                                 </div>
                             </figure>
-                            <h4 class="o-h-32 is--ucase">How SOURCH TECHNOLOGIES Helped Vieroots In Expanding thier
-                                Client Base</h4>
+                            <style>
+                                .case-image {
+                                    display: flex;
+                                    align-items: flex-end;
+                                    justify-content: center;
+                                    gap: 2rem;
+                                }
+
+                                .case-image img {
+                                    width: 60px;
+                                    height: 60px;
+                                    border-radius: 30px;
+                                }
+
+                                .case-image div {
+                                    display: flex;
+                                    flex-direction: column;
+                                    gap: 1rem;
+                                }
+
+                                .case-image div a {
+                                    color: white;
+                                }
+                            </style>
+                            <h4 class="o-h-32 is--ucase case-image">
+                                <img src="{{ asset('assets/Client_Logos/3.jpg') }}" alt="">
+                                <div>
+                                    <strong>
+                                        Vieroots
+
+                                    </strong>
+                                    <a href="">www.www.com</a>
+                                </div>
+                            </h4>
                         </div>
                         <div style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
                             class="o-flex-ss is--mt-56 m--mt-24 u-anim-2">
@@ -110,8 +142,8 @@
                             </ul>
                         </div>
 
-                        <br/>
-                        <br/>
+                        <br />
+                        <br />
 
                         <div style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
                             class="o-flex-ss u-anim-1">
