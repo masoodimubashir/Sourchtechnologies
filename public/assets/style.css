@@ -2045,7 +2045,7 @@ figure {
 }
 .c-nav {
     z-index: 100;
-    padding: 4.8rem 3.4rem 16.7rem 1.5rem;
+    padding: 4.8rem 3.4rem 16.7rem 3rem;
     position: fixed;
     top: 0%;
     bottom: auto;
@@ -2169,7 +2169,7 @@ figure {
 }
 .c-nav__target {
     z-index: 1;
-    width: 23rem;
+    width: 26rem;
     background-color: #e9edf5;
     border-bottom-right-radius: 50vw;
     position: absolute;
@@ -2465,6 +2465,7 @@ figure {
     color: #fff;
     margin-top: 0;
     margin-bottom: 5rem;
+    margin-left: 40px;
     font-family: TrapBold, sans-serif;
     font-size: 7.2rem;
     font-weight: 800;
@@ -4605,6 +4606,7 @@ figure {
     .c-nav__target {
         width: 24rem;
         left: -17rem;
+
     }
     .c-nav__summary {
         margin-top: 2.482rem;
