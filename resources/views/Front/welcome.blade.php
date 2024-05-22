@@ -66,10 +66,10 @@
                 <div class="o-flex-cs is--pl-79 m--pl-52--vss--pt-77 s--ml-0--mt-30">
                     <div class="o-l565 is--ml-125 m--452--m-0 s--auto">
                         <div class="o-layout">
-                            <h2 class="o-h-72 gradient">
+                            <h2 class="o-h-72">
                                 <span data-w-id="767439cf-d2c1-f0ab-62b0-47905e2ce8e9"
                                     style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
-                                    class="u-anim-h72line-1 s--inl"><br><br>Sourch Technologies Where World Merge with
+                                    class="u-anim-h72line-1 s--inl gradient "><br><br>Sourch Technologies Where World Merge with
                                     Marketing Brilliance! </span>
                             </h2>
                         </div>
@@ -81,9 +81,9 @@
                     <figure class="o-l993 m--l763--mt-140 s--none">
                         <a id="u-pls-1" data-w-id="29e11294-8e92-7eee-4160-7f31868851b8"
                             style="-webkit-transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
-                            href="digital-marketing.php" class="o-l656x900 m--l435 w-inline-block">
+                            href="{{ route('digital_marketting') }}" class="o-l656x900 m--l435 w-inline-block">
                             <div class="c-abs-infos">
-                                <h4 class="o-h-32 gradient">Digital Marketing Solutions</h4>
+                                <h4 class="o-h-32 ">Digital Marketing Solutions</h4>
                             </div>
                             <div class="c-bttn--abs">
                                 <div class="c-bttn__item-1">
@@ -135,9 +135,10 @@
                             </div>
                         </a>
 
-                        <a id="u-pls-2" data-w-id="24c75aa5-1925-e64d-1200-695a59d0f86c"
+                        <a href="{{ route('it_solutions') }}" id="u-pls-2"
+                            data-w-id="24c75aa5-1925-e64d-1200-695a59d0f86c"
                             style="opacity:0;-webkit-transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-                            href="it-consulting.php" class="o-l656x900 is--abs-l-477 m--l435 w-inline-block">
+                            class="o-l656x900 is--abs-l-477 m--l435 w-inline-block">
                             <div class="c-abs-infos">
                                 <h4 class="o-h-32">IT Solutions</h4>
                             </div>
@@ -352,11 +353,12 @@
             <div class="o-container is--z-3">
                 <div class="o-l1063 is--mt-68--ml-80 m--ml-53--mt-0 s--auto">
                     <h3 data-w-id="cd197528-45c6-e535-24c1-c15bc4560dac" class="o-h-56">
-                        <span class="u-h56line-1 m--inl">We can help you manage from top to bottom,
+                        <span class="u-h56line-1 m--inl gradient">We can help you manage from top to bottom,
                             all the layers. </span>
                     </h3>
-                    <div class="o-flex-ss is--mt-127--ml-225 m--mt-76 s--obo">
-                        <div class="o-flex-ss s--100">
+                    <div class="o-flex-ss o-flex-ss-1 is--mt-127--ml-225 m--mt-76 s--obo">
+
+                        <div class="o-flex-ss is--ml-123 m--ml-35 s-100--mt-64">
                             <div class="o-layout is--mr-33 s--mr-26">
                                 <div class="o-txt-20">01</div>
                             </div>
@@ -388,7 +390,9 @@
                                     potential risks.</p>
 
                             </div>
-                            <div class="o-flex-ss is--ml-123 m--ml-35 s-100--mt-64"></div>
+
+                        </div>
+                        <div class="o-flex-ss is--ml-123 m--ml-35 s-100--mt-64">
                             <div class="o-layout is--mr-33">
                                 <div class="o-txt-20">03</div>
                             </div>
@@ -403,6 +407,7 @@
 
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -413,8 +418,8 @@
             <div class="o-container">
                 <h2 class="o-h-56">
                     <span data-w-id="767439cf-d2c1-f0ab-62b0-47905e2ce8e9"
-                        style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
-                        class="u-h56line-1 m--inl"><br><br>Access The Powerful And Helpful Features. With Our
+                        style="padding-left: 10rem !important; -webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
+                        class="u-h56line-1 m--inl gradient"><br><br>Access The Powerful And Helpful Features. With Our
                         Dashboard <br> & CRM to Manage Your Business. </span>
 
 

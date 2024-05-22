@@ -96,12 +96,9 @@
                 <div class="o-layout is--pt-130--pl-362 m--pt-120--pl-57 s--pt-356--pl-0">
                     <div class="o-l808 m--l418 s--100">
                         <h1 class="o-h-112 m--57">
-                            <span data-w-id="4645020b-b08f-33c8-a40e-9267901c0b6c"
+                            <solutions data-w-id="4645020b-b08f-33c8-a40e-9267901c0b6c"
                                 style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
-                                class="u-h112line-1 m--57">IT</span>
-                            <span data-w-id="4645020b-b08f-33c8-a40e-9267901c0b6f"
-                                style="opacity:0;-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-                                class="u-h112line-2 m--57">solutions</span>
+                                class="u-h112line-1 m--57 gradient">IT solutions</span>
                         </h1>
                     </div>
                     <div class="o-l420 is--mt-230 m--mt-235 s--100--mt-24">
@@ -135,11 +132,11 @@
 
 
 
-        <section class="o-section is--mt-265 md--mt-200 sm--mt-150" style="padding-top: 5rem">
+        <section class="o-section is--mt-265 md--mt-200 sm--mt-150" >
             <div class="o-container is--z-3 md--vflex">
 
-                <div class="o-l503 is--ml-84 md--ml-52 sm--auto">
-                    <h2 class="o-h-72">
+                <div class="o-l503 is--ml-84 md--ml-52 sm--auto" >
+                    <h2 class="o-h-72 gradient" style="padding-top: 5rem !important;">
                         Web Development <br />
                     </h2>
                 </div>
@@ -229,9 +226,9 @@
 
         <section class="o-section is--mt-265 md--mt-200 sm--mt-150">
             <div class="o-container is--z-3 md--vflex">
-                
+
                 <div class="o-l503 is--ml-84 md--ml-52 sm--auto">
-                    <h2 class="o-h-72">
+                    <h2 class="o-h-72 gradient">
                         APP DEVELOPMENT <br />
                     </h2>
                 </div>
@@ -299,6 +296,8 @@
                 </div>
             </div>
         </section>
+
+
         <section class="o-section is--mt-318 m--mt-240 s--mt-180">
             @include('Front.ContactSection')
         </section>

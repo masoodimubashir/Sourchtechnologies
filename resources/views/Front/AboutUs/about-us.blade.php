@@ -84,12 +84,9 @@
             <div class="o-container is--z-3">
                 <div class="o-l808 is--pt-130--pl-82 m--pl-38--pt-72 s--pl-0--pt-30">
                     <h1 class="o-h-112">
-                        <span data-w-id="178e43f6-7ea6-ab83-3595-c405b00b6e48"
+                        <Sourch data-w-id="178e43f6-7ea6-ab83-3595-c405b00b6e48"
                             style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
-                            class="u-h112line-1">About</span>
-                        <span data-w-id="7cd095c1-cad9-fd86-5e59-bfbc2b2b3527"
-                            style="opacity:0;-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-                            class="u-h112line-2">Sourch Technologies</span>
+                            class="u-h112line-1 gradient">About Sourch Technologies</span>
                     </h1>
                 </div>
                 <div class="o-flex-ss is--mt-106--ml-315 m--grid s--obo--mt-59">
@@ -199,7 +196,7 @@
                         </div>
                     </div>
                     <div data-w-id="5f05f661-d251-c3be-e568-140cb96e0f63" class="o-layout is--ml-272 m--1st--ml-0">
-                        <h1 class="o-h-112">We do</h1>
+                        <h1 class="o-h-112 gradient">We do</h1>
                         <div class="o-flex-ss is--mt-82 m--none">
                             <div class="o-layout is--pt-17--pl-32">
                                 <figure class="o-ico is--abs-lt">
@@ -402,12 +399,9 @@
             <div class="o-container is--z-3--pl-80 m--pl-38 s--pl-0">
                 <div class="o-l675 is--pt-359--z-3 m--l540--mt-371 s--l100--pt-30">
                     <h1 data-w-id="3c8a567a-369c-8196-ab33-84bfc488300a" class="o-h-112">
-                        <span
+                        <sp
                             style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
-                            class="u-anim-h112line-1">Clients </span>
-                        <span
-                            style="opacity:0;-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-                            class="u-anim-h112line-2">&amp;Partners</span>
+                            class="u-anim-h112line-1 gradient">Clients &amp;Partners</span>
                     </h1>
                 </div>
                 <div class="o-layout is--mt-84--ml-682 m--mt-71--pl-0 s--mt-54">

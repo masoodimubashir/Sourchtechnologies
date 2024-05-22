@@ -66,12 +66,9 @@
         <div class="o-layout is--pt-130--pl-362 m--pt-120--pl-57 s--pt-356--pl-0">
             <div class="o-l808 m--l418 s--100">
                 <h1 class="o-h-112 m--60">
-                    <span data-w-id="4645020b-b08f-33c8-a40e-9267901c0b6c"
+                    <Your data-w-id="4645020b-b08f-33c8-a40e-9267901c0b6c"
                         style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
-                        class="u-h112line-1 m--57">Meet the People Fueling </span>
-                    <span data-w-id="4645020b-b08f-33c8-a40e-9267901c0b6f"
-                        style="opacity:0;-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-                        class="u-h112line-2 m--57"> Your Success</span>
+                        class="u-h112line-1 m--57 gradient">Meet the People Fueling Your Success</span>
                 </h1>
             </div>
         </div>

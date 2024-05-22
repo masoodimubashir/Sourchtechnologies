@@ -8,6 +8,7 @@ use Illuminate\Mail\Mailable;
 use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Queue\SerializesModels;
+use Illuminate\Mail\Mailables\Address;
 
 class ContactUs extends Mailable
 {
@@ -18,7 +19,6 @@ class ContactUs extends Mailable
      */
     public function __construct(public $data)
     {
-        //
     }
 
     /**
@@ -28,7 +28,6 @@ class ContactUs extends Mailable
     {
         return new Envelope(
             subject: 'Contact Us',
-            from: $this->data['email']
         );
     }
 

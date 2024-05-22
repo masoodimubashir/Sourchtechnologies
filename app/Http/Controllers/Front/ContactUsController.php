@@ -17,6 +17,7 @@ class ContactUsController extends Controller
             'message' => 'string|required'
         ]);
 
+
         Mail::to('info@sourchtech.com')->send(new ContactUs($data));
 
         return redirect()->back();
