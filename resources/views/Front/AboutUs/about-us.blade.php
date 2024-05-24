@@ -445,6 +445,49 @@
                                             <div class="o-txt-20--med is--pr-34 s--mr-21"></div>
                                         </div>
                                         <div class="s-l-298 is--mr-30--ml-68 s--auto">
+                                            <h4 class="s-h-32">The Balam Reserve</h4>
+                                        </div>
+                                        <figure class="s-ico s--none">
+                                            <div class="s-ico__item w-embed">
+                                                <svg width="100%" height="100%" viewBox="0 0 17 17"
+                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M4.01411 2.94942L9.41809 8.82665L3.99034 14.7659C3.61777 15.1736 3.64623 15.8061 4.05392 16.1787C4.39375 16.4893 4.9017 16.5277 5.28439 16.2718L15.1712 9.66046C15.6303 9.35346 15.7536 8.73242 15.4466 8.27332C15.3732 8.16357 15.2788 8.06944 15.1688 7.99636L5.30376 1.43974C4.8438 1.13403 4.22311 1.25908 3.9174 1.71904C3.66253 2.10252 3.70246 2.61047 4.01411 2.94942Z"
+                                                        fill="currentColor" />
+                                                </svg>
+                                            </div>
+                                        </figure>
+                                    </div>
+                                    <figure class="s-bottombaseline-wrapper">
+                                        <div class="s-baseline w-embed">
+                                            <svg width="100%" height="100%" viewBox="0 0 917 7" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path opacity="0.24" d="M1 3.5H916M1 3.5V0M1 3.5V7M916 3.5V0M916 3.5V7"
+                                                    stroke="white" />
+                                            </svg>
+                                        </div>
+                                    </figure>
+                                    <div class="c-certificate-bg"></div>
+                                </a>
+                            </div>
+                            <div role="listitem" class="s-certificates__item w-dyn-item">
+                                <a data-w-id="b52b12a7-6329-9b29-43e5-f8e56399fd4e" style="opacity:0"
+                                    href="https://assets-global.website-files.com/6092c1945b43dc602a3e3dea/6280c53649d8f3229ba85eaa_auth%20letter%20031022.pdf"
+                                    target="_blank" class="s-layout is--pt-44--pb-24 s--py-24 w-inline-block">
+                                    <div style="opacity:0" class="s-pimg">
+                                        <img src="Certificate Preview" loading="lazy"
+                                            style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0, 0);transform-style:preserve-3d"
+                                            src="https://assets-global.website-files.com/6092c1945b43dc602a3e3dea/6280c53c5f1eee358f9420af_auth%20letter%20031022.png"
+                                            sizes="(max-width: 991px) 100vw, 26vw"
+                                            srcset="https://assets-global.website-files.com/6092c1945b43dc602a3e3dea/6280c53c5f1eee358f9420af_auth%20letter%20031022-p-500.png 500w, https://assets-global.website-files.com/6092c1945b43dc602a3e3dea/6280c53c5f1eee358f9420af_auth%20letter%20031022.png 612w"
+                                            class="s-img u-perspective" />
+                                    </div>
+                                    <div class="s-flex-cs s--ss">
+                                        <div class="s-flex-ss">
+                                            <div class="o-txt-20--med">&#x27;</div>
+                                            <div class="o-txt-20--med is--pr-34 s--mr-21"></div>
+                                        </div>
+                                        <div class="s-l-298 is--mr-30--ml-68 s--auto">
                                             <h4 class="s-h-32">Peer Bie Inc.</h4>
                                         </div>
                                         <figure class="s-ico s--none">
@@ -599,7 +642,6 @@
                                     <div class="c-certificate-bg"></div>
                                 </a>
                             </div>
-
                             <div role="listitem" class="s-certificates__item w-dyn-item">
                                 <a data-w-id="b52b12a7-6329-9b29-43e5-f8e56399fd4e" style="opacity:0"
                                     href="https://assets-global.website-files.com/6092c1945b43dc602a3e3dea/63e8b9954bd90754fed295cc_Authorization%20letter%20for%20Hyticon%202023.pdf"
@@ -686,8 +728,6 @@
                                     <div class="c-certificate-bg"></div>
                                 </a>
                             </div>
-
-
                             <div role="listitem" class="s-certificates__item w-dyn-item">
                                 <a data-w-id="b52b12a7-6329-9b29-43e5-f8e56399fd4e" style="opacity:0"
                                     href="https://assets-global.website-files.com/6092c1945b43dc602a3e3dea/63e8b9954bd90754fed295cc_Authorization%20letter%20for%20Hyticon%202023.pdf"
@@ -731,7 +771,6 @@
                                     <div class="c-certificate-bg"></div>
                                 </a>
                             </div>
-
                             <div role="listitem" class="s-certificates__item w-dyn-item">
                                 <a data-w-id="b52b12a7-6329-9b29-43e5-f8e56399fd4e" style="opacity:0"
                                     href="https://assets-global.website-files.com/6092c1945b43dc602a3e3dea/63e8b9954bd90754fed295cc_Authorization%20letter%20for%20Hyticon%202023.pdf"
@@ -775,7 +814,6 @@
                                     <div class="c-certificate-bg"></div>
                                 </a>
                             </div>
-
                             <div role="listitem" class="s-certificates__item w-dyn-item">
                                 <a data-w-id="b52b12a7-6329-9b29-43e5-f8e56399fd4e" style="opacity:0"
                                     href="https://assets-global.website-files.com/6092c1945b43dc602a3e3dea/63e8b9954bd90754fed295cc_Authorization%20letter%20for%20Hyticon%202023.pdf"
@@ -819,7 +857,6 @@
                                     <div class="c-certificate-bg"></div>
                                 </a>
                             </div>
-
                             <div role="listitem" class="s-certificates__item w-dyn-item">
                                 <a data-w-id="b52b12a7-6329-9b29-43e5-f8e56399fd4e" style="opacity:0"
                                     href="https://assets-global.website-files.com/6092c1945b43dc602a3e3dea/63e8b9954bd90754fed295cc_Authorization%20letter%20for%20Hyticon%202023.pdf"
@@ -863,7 +900,6 @@
                                     <div class="c-certificate-bg"></div>
                                 </a>
                             </div>
-
                             <div role="listitem" class="s-certificates__item w-dyn-item">
                                 <a data-w-id="b52b12a7-6329-9b29-43e5-f8e56399fd4e" style="opacity:0"
                                     href="https://assets-global.website-files.com/6092c1945b43dc602a3e3dea/63e8b9954bd90754fed295cc_Authorization%20letter%20for%20Hyticon%202023.pdf"
@@ -907,7 +943,6 @@
                                     <div class="c-certificate-bg"></div>
                                 </a>
                             </div>
-
                             <div role="listitem" class="s-certificates__item w-dyn-item">
                                 <a data-w-id="b52b12a7-6329-9b29-43e5-f8e56399fd4e" style="opacity:0"
                                     href="https://assets-global.website-files.com/6092c1945b43dc602a3e3dea/63e8b9954bd90754fed295cc_Authorization%20letter%20for%20Hyticon%202023.pdf"

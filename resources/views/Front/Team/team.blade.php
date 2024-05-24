@@ -7,9 +7,106 @@
     <title>Sourch Technologies— IT Solutions</title>
 
     @include('Front.Header')
+
+
+    <style>
+        main {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            padding: 50px;
+            font-family: "Roboto", sans-serif;
+        }
+
+        .card {
+            width: 24rem;
+            height: 36rem;
+            border-radius: 10px;
+            overflow: hidden;
+            position: relative;
+            color: #f0f0f0;
+            gap: 1rem;
+            box-shadow: 0 0px 0px 2px rgba(255, 255, 255, .2);
+
+        }
+
+        .card img {
+            position: absolute;
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            opacity: 0.9;
+            transition: opacity 0.2s ease-out;
+        }
+
+        .card h2 {
+            position: absolute;
+            inset: auto auto 20px 20px;
+            margin: 0;
+            font-size: 2rem;
+            transition: inset 0.3s 0.3s ease-out;
+            font-weight: bolder;
+
+
+        }
+
+        .card p {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            gap: 1rem;
+            position: absolute;
+            opacity: 0;
+            max-width: 80%;
+            transition: opacity 0.3s ease-out;
+            color: white;
+            font: bolder;
+
+
+
+        }
+
+        .card p i {
+            font-size: 3rem;
+            cursor: pointer;
+        }
+
+
+
+
+        .card p {
+            inset: auto auto 80px 30px;
+        }
+
+
+
+        .card:hover h2 {
+            inset: auto auto 200px 20px;
+            transition: inset 0.3s ease-out;
+        }
+
+        .card:hover p {
+            opacity: 1;
+            transition: opacity 0.5s 0.1s ease-in;
+        }
+
+        .card:hover img {
+            transition: opacity 0.3s ease-in;
+            opacity: 1;
+        }
+
+        .material-symbols-outlined {
+            vertical-align: middle;
+        }
+    </style>
+
+
 </head>
 
 <body>
+
     <div class="g-root w-embed">
         <style>
             @media (min-width: 992px) {
@@ -39,6 +136,8 @@
             }
         </style>
     </div>
+
+
     <div style="-webkit-transform:translate3d(0, 101%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 101%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 101%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 101%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
         class="cookie-modal cookie-modal">
         <figure class="cookie__target">
@@ -57,6 +156,7 @@
             </a>
         </div>
     </div>
+
     <div style="opacity:0" class="o-page">
         @include('Front.Navbar')
         <header class="o-section s--mt-n56">
@@ -76,598 +176,621 @@
     </div>
     </header>
 
+
+
+
     <section class="o-section is--mt-382 md--mt-120 sm--mt-0">
+        <hr>
+
+        <br>
+        <br>
+
         <div class="o-container is--z-3">
             <div class="o-l610 is--ml-84 md--ml-57">
                 <h2 class="o-h-72">FOUNDING MEMBERS</h2>
             </div>
-            <figure data-w-id="7c0b73ee-6f1e-6e17-827d-55699ebb987f" class="c-ai-stripes">
 
-                <figure class="c-ai-stripes__vector">
-                    <div data-is-ix2-target="1" class="c-ai-stripes__vector__lottie"
-                        data-w-id="ba919956-c869-8f7c-49a7-ddc153861ceb" data-animation-type="lottie"
-                        data-src="https://assets-global.website-files.com/6092932467852e3af1741898/60ca07cfa2ab22c7139ee78e_line_animation.json"
-                        data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg"
-                        data-default-duration="2.183333333333333" data-duration="0" data-ix2-initial-state="0"></div>
-                </figure>
-                <div class="c-ai-stripes__infos">
-                    <h3 class="o-h-32">
-                        <div style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
-                            class="u-anim-h32line-1">
-                            <div class="card">
-                                <img src="{{asset('assets/crm pic.png')}}"/>
-                                <div class="card-title">
-                                    <p>Sageer Yousuf Pandith</p>
-                                    <p>Designation</p>
-                                </div>
-                                <div class="card-footer">
+            <main>
+                <div class = "card">
+                    <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80"
+                        alt="">
+                    <div class="card-content">
+                        <h2>
+                            Sageer Yousuf Pandith
+                        </h2>
+                        <p>
+                            <i class="fa fa-facebook"></i>
 
-                                        <small><i class="fa fa-facebook"></i></small>
-                                        <small>l</small>
-                                        <small>t</small>
-                                </div>
-                            </div>
-                        </div>
-                    </h3>
-                </div>
-                <div class="c-ai-stripes__infos is--item-2">
-                    <h3 class="o-h-32">
-                        <span
-                            style="opacity:0;-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-                            class="u-anim-h32line-2">
-                            <div class="card">
-                                <img src="{{asset('assets/crm pic.png')}}"/>
-                                <div class="card-title">
-                                    <p>Mohammad Yousuf Pandith</p>
-                                    <p>Designation</p>
-                                </div>
-                                <div class="card-footer">
+                            <i class="fa fa-google"></i>
 
-                                        <small><i class="fa fa-facebook"></i></small>
-                                        <small>l</small>
-                                        <small>t</small>
-                                </div>
-                            </div>
-                        </span>
-                    </h3>
-                </div>
-            </figure>
-        </div>
-        <figure data-w-id="0ba19ef9-9baf-bedc-ee36-3a3234691616" style="opacity:0" class="c-ai-img">
-            <div class="c-ai-img__target"></div>
-            <div class="c-ai-img__border"></div>
-            <img src="assets/webdev.jpg" loading="lazy" sizes="100vw" srcset="1920w" alt="AI IMG"
-                class="o-img md--cover" />
-        </figure>
-    </section>
+                            <i class="fa fa-twitter"></i>
 
-    <section class="o-section is--mt-382 md--mt-120 sm--mt-0">
-        <div class="o-container is--z-3">
-            <div class="o-l610 is--ml-84 md--ml-57">
-                <h2 class="o-h-72">DIRECTORS</h2>
-            </div>
-            <figure data-w-id="7c0b73ee-6f1e-6e17-827d-55699ebb987f" class="c-ai-stripes">
-
-                <figure class="c-ai-stripes__vector">
-                    <div data-is-ix2-target="1" class="c-ai-stripes__vector__lottie"
-                        data-w-id="ba919956-c869-8f7c-49a7-ddc153861ceb" data-animation-type="lottie"
-                        data-src="https://assets-global.website-files.com/6092932467852e3af1741898/60ca07cfa2ab22c7139ee78e_line_animation.json"
-                        data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg"
-                        data-default-duration="2.183333333333333" data-duration="0" data-ix2-initial-state="0"></div>
-                </figure>
-                <div class="c-ai-stripes__infos">
-                    <h4 class="o-h-32">
-                        <span
-                            style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
-                            class="u-anim-h32line-1">
-                            <div class="card">
-                                <img src="{{asset('assets/crm pic.png')}}"/>
-                                <div class="card-title">
-                                    <p>Sandeep Kour</p>
-                                    <p>Designation</p>
-                                </div>
-                                <div class="card-footer">
-
-                                        <small><i class="fa fa-facebook"></i></small>
-                                        <small>l</small>
-                                        <small>t</small>
-                                </div>
-                            </div>
-                        </span>
-                    </h4>
-                    <div class="o-layout is--mt-24 m--mt-24 s--mt-8">
-                        <p data-w-id="8f02b8b8-00b5-b432-c0c5-b04b6765b137"
-                            style="opacity:0;-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-                            class="o-p-20">Any scale of the project</p>
-                    </div>
-                </div>
-                <div class="c-ai-stripes__infos is--item-2">
-                    <h3 class="o-h-32">
-                        <span
-                            style="opacity:0;-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-                            class="u-anim-h32line-2">
-                            <div class="card">
-                                <img src="{{asset('assets/crm pic.png')}}"/>
-                                <div class="card-title">
-                                    <p>Rameez Maqbool</p>
-                                    <p>Designation</p>
-                                </div>
-                                <div class="card-footer">
-
-                                        <small><i class="fa fa-facebook"></i></small>
-                                        <small>l</small>
-                                        <small>t</small>
-                                </div>
-
-                            </div>
-                        </span>
-                    </h3>
-                </div>
-            </figure>
-        </div>
-        <figure data-w-id="0ba19ef9-9baf-bedc-ee36-3a3234691616" style="opacity:0" class="c-ai-img">
-            <div class="c-ai-img__target"></div>
-            <div class="c-ai-img__border"></div>
-            <img src="assets/webdev.jpg" loading="lazy" sizes="100vw" srcset="1920w" alt="AI IMG"
-                class="o-img md--cover" />
-        </figure>
-    </section>
-
-    <section class="o-section is--mt-382 md--mt-120 sm--mt-0">
-        <div class="o-container is--z-3">
-            <div class="o-l610 is--ml-84 md--ml-57">
-                <h2 class="o-h-72">BUSINESS DEVELOPMENT MANAGERS</h2>
-            </div>
-            <figure data-w-id="7c0b73ee-6f1e-6e17-827d-55699ebb987f" class="c-ai-stripes">
-
-                <figure class="c-ai-stripes__vector">
-                    <div data-is-ix2-target="1" class="c-ai-stripes__vector__lottie"
-                        data-w-id="ba919956-c869-8f7c-49a7-ddc153861ceb" data-animation-type="lottie"
-                        data-src="https://assets-global.website-files.com/6092932467852e3af1741898/60ca07cfa2ab22c7139ee78e_line_animation.json"
-                        data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg"
-                        data-default-duration="2.183333333333333" data-duration="0" data-ix2-initial-state="0"></div>
-                </figure>
-                <div class="c-ai-stripes__infos">
-                    <h4 class="o-h-32">
-                        <span
-                            style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
-                            class="u-anim-h32line-1">
-                            <div class="card">
-                                <img src="{{asset('assets/crm pic.png')}}"/>
-                                <div class="card-title">
-                                    <p>Sandeep Kaur</p>
-                                    <p>Designation</p>
-                                </div>
-                                <div class="card-footer">
-
-                                        <small><i class="fa fa-facebook"></i></small>
-                                        <small>l</small>
-                                        <small>t</small>
-                                </div>
-                            </div>
-                        </span>
-                    </h4>
-                    <div class="o-layout is--mt-24 m--mt-24 s--mt-8">
-                        <p data-w-id="8f02b8b8-00b5-b432-c0c5-b04b6765b137"
-                            style="opacity:0;-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-                            class="o-p-20">Any scale of the project</p>
-                    </div>
-                </div>
-                <div class="c-ai-stripes__infos is--item-2">
-                    <h3 class="o-h-32">
-                        <span
-                            style="opacity:0;-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-                            class="u-anim-h32line-2">
-                            <div class="card">
-                                <img src="{{asset('assets/crm pic.png')}}"/>
-                                <div class="card-title">
-                                    <p>Rameez Maqbool</p>
-                                    <p>Designation</p>
-                                </div>
-                                <div class="card-footer">
-
-                                        <small><i class="fa fa-facebook"></i></small>
-                                        <small>l</small>
-                                        <small>t</small>
-                                </div>
-                            </div>
-                        </span>
-                    </h3>
-                </div>
-            </figure>
-        </div>
-        <figure data-w-id="0ba19ef9-9baf-bedc-ee36-3a3234691616" style="opacity:0" class="c-ai-img">
-            <div class="c-ai-img__target"></div>
-            <div class="c-ai-img__border"></div>
-            <img src="assets/webdev.jpg" loading="lazy" sizes="100vw" srcset="1920w" alt="AI IMG"
-                class="o-img md--cover" />
-        </figure>
-    </section>
-
-
-    <section class="o-section is--mt-382 md--mt-120 sm--mt-0">
-        <div class="o-container is--z-3">
-            <div class="o-l610 is--ml-84 md--ml-57">
-                <h2 class="o-h-72">SOFTWARE DEVELOPERS</h2>
-            </div>
-            <figure data-w-id="7c0b73ee-6f1e-6e17-827d-55699ebb987f" class="c-ai-stripes">
-
-                <figure class="c-ai-stripes__vector">
-                    <div data-is-ix2-target="1" class="c-ai-stripes__vector__lottie"
-                        data-w-id="ba919956-c869-8f7c-49a7-ddc153861ceb" data-animation-type="lottie"
-                        data-src="https://assets-global.website-files.com/6092932467852e3af1741898/60ca07cfa2ab22c7139ee78e_line_animation.json"
-                        data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg"
-                        data-default-duration="2.183333333333333" data-duration="0" data-ix2-initial-state="0"></div>
-                </figure>
-                <div class="c-ai-stripes__infos">
-                    <h4 class="o-h-32">
-                        <span
-                            style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
-                            class="u-anim-h32line-1">
-                            <div class="card">
-                                <img src="{{asset('assets/crm pic.png')}}"/>
-                                <div class="card-title">
-                                    <p>Mubashir Masoodi</p>
-                                    <p>Designation</p>
-                                </div>
-                                <div class="card-footer">
-
-                                        <small><i class="fa fa-facebook"></i></small>
-                                        <small>l</small>
-                                        <small>t</small>
-                                </div>
-                            </div>
-                        </span>
-                    </h4>
-                    <div class="o-layout is--mt-24 m--mt-24 s--mt-8">
-                        <p data-w-id="8f02b8b8-00b5-b432-c0c5-b04b6765b137"
-                            style="opacity:0;-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-                            class="o-p-20">Any scale of the project</p>
-                    </div>
-                </div>
-                <div class="c-ai-stripes__infos is--item-2">
-                    <h3 class="o-h-32">
-                        <span
-                            style="opacity:0;-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-                            class="u-anim-h32line-2">
-                            <div class="card">
-                                <img src="{{asset('assets/crm pic.png')}}"/>
-                                <div class="card-title">
-                                    <p>Rameez Maqbool</p>
-                                    <p>Designation</p>
-                                </div>
-                                <div class="card-footer">
-
-                                        <small><i class="fa fa-facebook"></i></small>
-                                        <small>l</small>
-                                        <small>t</small>
-                                </div>
-                            </div>
-                        </span>
-                    </h3>
-                </div>
-            </figure>
-        </div>
-        <figure data-w-id="0ba19ef9-9baf-bedc-ee36-3a3234691616" style="opacity:0" class="c-ai-img">
-            <div class="c-ai-img__target"></div>
-            <div class="c-ai-img__border"></div>
-            <img src="assets/webdev.jpg" loading="lazy" sizes="100vw" srcset="1920w" alt="AI IMG"
-                class="o-img md--cover" />
-        </figure>
-    </section>
-
-
-    <section class="o-section is--mt-382 md--mt-120 sm--mt-0">
-        <div class="o-container is--z-3">
-            <div class="o-l610 is--ml-84 md--ml-57">
-                <h2 class="o-h-72">PROJECT MANAGERS</h2>
-            </div>
-            <figure data-w-id="7c0b73ee-6f1e-6e17-827d-55699ebb987f" class="c-ai-stripes">
-
-                <figure class="c-ai-stripes__vector">
-                    <div data-is-ix2-target="1" class="c-ai-stripes__vector__lottie"
-                        data-w-id="ba919956-c869-8f7c-49a7-ddc153861ceb" data-animation-type="lottie"
-                        data-src="https://assets-global.website-files.com/6092932467852e3af1741898/60ca07cfa2ab22c7139ee78e_line_animation.json"
-                        data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg"
-                        data-default-duration="2.183333333333333" data-duration="0" data-ix2-initial-state="0"></div>
-                </figure>
-                <div class="c-ai-stripes__infos">
-                    <h4 class="o-h-32">
-                        <span
-                            style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
-                            class="u-anim-h32line-1">
-                            <div class="card">
-                                <img src="{{asset('assets/crm pic.png')}}"/>
-                                <div class="card-title">
-                                    <p>Sageer Yousuf Pandith</p>
-                                    <p>Designation</p>
-                                </div>
-                                <div class="card-footer">
-
-                                        <small><i class="fa fa-facebook"></i></small>
-                                        <small>l</small>
-                                        <small>t</small>
-                                </div>
-                            </div>
-                        </span>
-                    </h4>
-                    <div class="o-layout is--mt-24 m--mt-24 s--mt-8">
-                        <p data-w-id="8f02b8b8-00b5-b432-c0c5-b04b6765b137"
-                            style="opacity:0;-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-                            class="o-p-20">Any scale of the project</p>
-                    </div>
-                </div>
-                <div class="c-ai-stripes__infos is--item-2">
-                    <h3 class="o-h-32">
-                        <span
-                            style="opacity:0;-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-                            class="u-anim-h32line-2">
-                            <div class="card">
-                                <img src="{{asset('assets/crm pic.png')}}"/>
-                                <div class="card-title">
-                                    <p>Sageer Yousuf Pandith</p>
-                                    <p>Designation</p>
-                                </div>
-                                <div class="card-footer">
-
-                                        <small><i class="fa fa-facebook"></i></small>
-                                        <small>l</small>
-                                        <small>t</small>
-                                </div>
-                            </div>
-                        </span>
-                    </h3>
-                </div>
-            </figure>
-        </div>
-        <figure data-w-id="0ba19ef9-9baf-bedc-ee36-3a3234691616" style="opacity:0" class="c-ai-img">
-            <div class="c-ai-img__target"></div>
-            <div class="c-ai-img__border"></div>
-            <img src="assets/webdev.jpg" loading="lazy" sizes="100vw" srcset="1920w" alt="AI IMG"
-                class="o-img md--cover" />
-        </figure>
-    </section>
-
-
-    <section class="o-section is--mt-382 md--mt-120 sm--mt-0">
-        <div class="o-container is--z-3">
-            <div class="o-l610 is--ml-84 md--ml-57">
-                <h2 class="o-h-72">BUSINESS DEVELOPMENT EXECUTIVES</h2>
-            </div>
-            <figure data-w-id="7c0b73ee-6f1e-6e17-827d-55699ebb987f" class="c-ai-stripes">
-
-                <figure class="c-ai-stripes__vector">
-                    <div data-is-ix2-target="1" class="c-ai-stripes__vector__lottie"
-                        data-w-id="ba919956-c869-8f7c-49a7-ddc153861ceb" data-animation-type="lottie"
-                        data-src="https://assets-global.website-files.com/6092932467852e3af1741898/60ca07cfa2ab22c7139ee78e_line_animation.json"
-                        data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg"
-                        data-default-duration="2.183333333333333" data-duration="0" data-ix2-initial-state="0"></div>
-                </figure>
-                <div class="c-ai-stripes__infos">
-                    <h4 class="o-h-32">
-                        <span
-                            style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
-                            class="u-anim-h32line-1">
-                            <div class="card">
-                                <img src="{{asset('assets/crm pic.png')}}"/>
-                                <div class="card-title">
-                                    <p>Sageer Yousuf Pandith</p>
-                                    <p>Designation</p>
-                                </div>
-                                <div class="card-footer">
-
-                                        <small><i class="fa fa-facebook"></i></small>
-                                        <small>l</small>
-                                        <small>t</small>
-                                </div>
-                            </div>
-                        </span>
-                    </h4>
-                    <div class="o-layout is--mt-24 m--mt-24 s--mt-8">
-                        <p data-w-id="8f02b8b8-00b5-b432-c0c5-b04b6765b137"
-                            style="opacity:0;-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-                            class="o-p-20">Any scale of the project</p>
-                    </div>
-                </div>
-                <div class="c-ai-stripes__infos is--item-2">
-                    <h3 class="o-h-32">
-                        <span
-                            style="opacity:0;-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-                            class="u-anim-h32line-2">
-                            <div class="card">
-                                <img src="{{asset('assets/crm pic.png')}}"/>
-                                <div class="card-title">
-                                    <p>Sageer Yousuf Pandith</p>
-                                    <p>Designation</p>
-                                </div>
-                                <div class="card-footer">
-
-                                        <small><i class="fa fa-facebook"></i></small>
-                                        <small>l</small>
-                                        <small>t</small>
-                                </div>
-                            </div>
-                        </span>
-                    </h3>
-                </div>
-            </figure>
-        </div>
-        <figure data-w-id="0ba19ef9-9baf-bedc-ee36-3a3234691616" style="opacity:0" class="c-ai-img">
-            <div class="c-ai-img__target"></div>
-            <div class="c-ai-img__border"></div>
-            <img src="assets/webdev.jpg" loading="lazy" sizes="100vw" srcset="1920w" alt="AI IMG"
-                class="o-img md--cover" />
-        </figure>
-    </section>
-
-
-    <section class="o-section is--mt-382 md--mt-120 sm--mt-0">
-        <div class="o-container is--z-3">
-            <div class="o-l610 is--ml-84 md--ml-57">
-                <h2 class="o-h-72">BUSINESS DEVELOPEMENT ASSOCIATES</h2>
-            </div>
-            <figure data-w-id="7c0b73ee-6f1e-6e17-827d-55699ebb987f" class="c-ai-stripes">
-
-                <figure class="c-ai-stripes__vector">
-                    <div data-is-ix2-target="1" class="c-ai-stripes__vector__lottie"
-                        data-w-id="ba919956-c869-8f7c-49a7-ddc153861ceb" data-animation-type="lottie"
-                        data-src="https://assets-global.website-files.com/6092932467852e3af1741898/60ca07cfa2ab22c7139ee78e_line_animation.json"
-                        data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg"
-                        data-default-duration="2.183333333333333" data-duration="0" data-ix2-initial-state="0"></div>
-                </figure>
-                <div class="c-ai-stripes__infos">
-                    <h4 class="o-h-32">
-                        <span
-                            style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
-                            class="u-anim-h32line-1">
-                            <div class="card">
-                                <img src="{{asset('assets/crm pic.png')}}"/>
-                                <div class="card-title">
-                                    <p>Sageer Yousuf Pandith</p>
-                                    <p>Designation</p>
-                                </div>
-                                <div class="card-footer">
-
-                                        <small><i class="fa fa-facebook"></i></small>
-                                        <small>l</small>
-                                        <small>t</small>
-                                </div>
-                            </div>
-                        </span>
-                    </h4>
-                    <div class="o-layout is--mt-24 m--mt-24 s--mt-8">
-                        <p data-w-id="8f02b8b8-00b5-b432-c0c5-b04b6765b137"
-                            style="opacity:0;-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-                            class="o-p-20">Any scale of the project
                         </p>
                     </div>
+
                 </div>
-                <div class="c-ai-stripes__infos is--item-2">
-                    <h3 class="o-h-32">
-                        <span
-                            style="opacity:0;-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-                            class="u-anim-h32line-2">
-                            <div class="card">
-                                <img src="{{asset('assets/crm pic.png')}}"/>
-                                <div class="card-title">
-                                    <p>Sageer Yousuf Pandith</p>
-                                    <p>Designation</p>
-                                </div>
-                                <div class="card-footer">
+                <div class = "card">
+                    <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80"
+                        alt="">
+                    <div class="card-content">
+                        <h2>
+                            Sageer Yousuf Pandith
+                        </h2>
+                        <p>
+                            <i class="fa fa-facebook"></i>
 
-                                        <small><i class="fa fa-facebook"></i></small>
-                                        <small>l</small>
-                                        <small>t</small>
-                                </div>
-                            </div>
-                        </span>
-                    </h3>
-                </div>
-            </figure>
-        </div>
-        <figure data-w-id="0ba19ef9-9baf-bedc-ee36-3a3234691616" style="opacity:0" class="c-ai-img">
-            <div class="c-ai-img__target"></div>
-            <div class="c-ai-img__border"></div>
-            <img src="assets/webdev.jpg" loading="lazy" sizes="100vw" srcset="1920w" alt="AI IMG"
-                class="o-img md--cover" />
-        </figure>
-    </section>
+                            <i class="fa fa-google"></i>
 
-    <section class="o-section is--mt-382 md--mt-120 sm--mt-0">
-        <div class="o-container is--z-3">
-            <div class="o-l610 is--ml-84 md--ml-57">
-                <h2 class="o-h-72">SOCIAL MEDIA SPECIALISTS</h2>
-            </div>
-            <figure data-w-id="7c0b73ee-6f1e-6e17-827d-55699ebb987f" class="c-ai-stripes">
+                            <i class="fa fa-twitter"></i>
 
-                <figure class="c-ai-stripes__vector">
-                    <div data-is-ix2-target="1" class="c-ai-stripes__vector__lottie"
-                        data-w-id="ba919956-c869-8f7c-49a7-ddc153861ceb" data-animation-type="lottie"
-                        data-src="https://assets-global.website-files.com/6092932467852e3af1741898/60ca07cfa2ab22c7139ee78e_line_animation.json"
-                        data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg"
-                        data-default-duration="2.183333333333333" data-duration="0" data-ix2-initial-state="0"></div>
-                </figure>
-                <div class="c-ai-stripes__infos">
-                    <h4 class="o-h-32">
-                        <span
-                            style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
-                            class="u-anim-h32line-1">SANDEEP KAUR </span>
-                    </h4>
-                    <div class="o-layout is--mt-24 m--mt-24 s--mt-8">
-                        <p data-w-id="8f02b8b8-00b5-b432-c0c5-b04b6765b137"
-                            style="opacity:0;-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-                            class="o-p-20">Any scale of the project</p>
+                        </p>
                     </div>
-                </div>
-                <div class="c-ai-stripes__infos is--item-2">
-                    <h3 class="o-h-32">
-                        <span
-                            style="opacity:0;-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-                            class="u-anim-h32line-2">RAMEEZ MAQBOOL</span>
-                    </h3>
-                </div>
-            </figure>
-        </div>
-        <figure data-w-id="0ba19ef9-9baf-bedc-ee36-3a3234691616" style="opacity:0" class="c-ai-img">
-            <div class="c-ai-img__target"></div>
-            <div class="c-ai-img__border"></div>
-            <img src="assets/webdev.jpg" loading="lazy" sizes="100vw" srcset="1920w" alt="AI IMG"
-                class="o-img md--cover" />
-        </figure>
-    </section>
 
+                </div>
+                <div class = "card">
+                    <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80"
+                        alt="">
+                    <div class="card-content">
+                        <h2>
+                            Sageer Yousuf Pandith
+                        </h2>
+                        <p>
+                            <i class="fa fa-facebook"></i>
+
+                            <i class="fa fa-google"></i>
+
+                            <i class="fa fa-twitter"></i>
+
+                        </p>
+                    </div>
+
+                </div>
+
+            </main>
+        </div>
+
+
+    </section>
 
     <section class="o-section is--mt-382 md--mt-120 sm--mt-0">
+        <hr>
+
+        <br>
+        <br>
+
         <div class="o-container is--z-3">
             <div class="o-l610 is--ml-84 md--ml-57">
-                <h2 class="o-h-72">OUTREACH SPECIALISTS (APPOINTMENT SETTERS)</h2>
+                <h2 class="o-h-72">Directors</h2>
             </div>
-            <figure data-w-id="7c0b73ee-6f1e-6e17-827d-55699ebb987f" class="c-ai-stripes">
 
-                <figure class="c-ai-stripes__vector">
-                    <div data-is-ix2-target="1" class="c-ai-stripes__vector__lottie"
-                        data-w-id="ba919956-c869-8f7c-49a7-ddc153861ceb" data-animation-type="lottie"
-                        data-src="https://assets-global.website-files.com/6092932467852e3af1741898/60ca07cfa2ab22c7139ee78e_line_animation.json"
-                        data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg"
-                        data-default-duration="2.183333333333333" data-duration="0" data-ix2-initial-state="0"></div>
-                </figure>
-                <div class="c-ai-stripes__infos">
-                    <h4 class="o-h-32">
-                        <span
-                            style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
-                            class="u-anim-h32line-1">SANDEEP KAUR </span>
-                    </h4>
+            <main>
+                <div class = "card">
+                    <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80"
+                        alt="">
+                    <div class="card-content">
+                        <h2>
+                            Sageer Yousuf Pandith
+                        </h2>
+                        <p>
+                            <i class="fa fa-facebook"></i>
+
+                            <i class="fa fa-google"></i>
+
+                            <i class="fa fa-twitter"></i>
+
+                        </p>
+                    </div>
+
                 </div>
-                <div class="c-ai-stripes__infos is--item-2">
-                    <h3 class="o-h-32">
-                        <span
-                            style="opacity:0;-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-                            class="u-anim-h32line-2">RAMEEZ MAQBOOL</span>
-                    </h3>
+                <div class = "card">
+                    <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80"
+                        alt="">
+                    <div class="card-content">
+                        <h2>
+                            Sageer Yousuf Pandith
+                        </h2>
+                        <p>
+                            <i class="fa fa-facebook"></i>
+
+                            <i class="fa fa-google"></i>
+
+                            <i class="fa fa-twitter"></i>
+
+                        </p>
+                    </div>
+
                 </div>
-                <div class="c-ai-stripes__infos">
-                    <h4 class="o-h-32">
-                        <span
-                            style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
-                            class="u-anim-h32line-1">SANDEEP KAUR </span>
-                    </h4>
+                <div class = "card">
+                    <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80"
+                        alt="">
+                    <div class="card-content">
+                        <h2>
+                            Sageer Yousuf Pandith
+                        </h2>
+                        <p>
+                            <i class="fa fa-facebook"></i>
+
+                            <i class="fa fa-google"></i>
+
+                            <i class="fa fa-twitter"></i>
+
+                        </p>
+                    </div>
+
                 </div>
-                <div class="c-ai-stripes__infos is--item-2">
-                    <h3 class="o-h-32">
-                        <span
-                            style="opacity:0;-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-                            class="u-anim-h32line-2">RAMEEZ MAQBOOL</span>
-                    </h3>
+
+                <div class = "card">
+                    <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80"
+                        alt="">
+                    <div class="card-content">
+                        <h2>
+                            Sageer Yousuf Pandith
+                        </h2>
+                        <p>
+                            <i class="fa fa-facebook"></i>
+
+                            <i class="fa fa-google"></i>
+
+                            <i class="fa fa-twitter"></i>
+
+                        </p>
+                    </div>
+
                 </div>
-            </figure>
+
+            </main>
         </div>
-        <figure data-w-id="0ba19ef9-9baf-bedc-ee36-3a3234691616" style="opacity:0" class="c-ai-img">
-            <div class="c-ai-img__target"></div>
-            <div class="c-ai-img__border"></div>
-            <img src="assets/webdev.jpg" loading="lazy" sizes="100vw" srcset="1920w" alt="AI IMG"
-                class="o-img md--cover" />
-        </figure>
+
+
     </section>
+
+    <section class="o-section is--mt-382 md--mt-120 sm--mt-0">
+        <hr>
+
+        <br>
+        <br>
+
+        <div class="o-container is--z-3">
+            <div class="o-l610 is--ml-84 md--ml-57">
+                <h2 class="o-h-72">Business Development Managers</h2>
+            </div>
+
+            <main>
+                <div class = "card">
+                    <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80"
+                        alt="">
+                    <div class="card-content">
+                        <h2>
+                            Sageer Yousuf Pandith
+                        </h2>
+                        <p>
+                            <i class="fa fa-facebook"></i>
+
+                            <i class="fa fa-google"></i>
+
+                            <i class="fa fa-twitter"></i>
+
+                        </p>
+                    </div>
+
+                </div>
+                <div class = "card">
+                    <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80"
+                        alt="">
+                    <div class="card-content">
+                        <h2>
+                            Sageer Yousuf Pandith
+                        </h2>
+                        <p>
+                            <i class="fa fa-facebook"></i>
+
+                            <i class="fa fa-google"></i>
+
+                            <i class="fa fa-twitter"></i>
+
+                        </p>
+                    </div>
+
+                </div>
+                <div class = "card">
+                    <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80"
+                        alt="">
+                    <div class="card-content">
+                        <h2>
+                            Sageer Yousuf Pandith
+                        </h2>
+                        <p>
+                            <i class="fa fa-facebook"></i>
+
+                            <i class="fa fa-google"></i>
+
+                            <i class="fa fa-twitter"></i>
+
+                        </p>
+                    </div>
+
+                </div>
+
+            </main>
+        </div>
+
+
+    </section>
+
+    <section class="o-section is--mt-382 md--mt-120 sm--mt-0">
+        <hr>
+
+        <br>
+        <br>
+
+        <div class="o-container is--z-3">
+            <div class="o-l610 is--ml-84 md--ml-57">
+                <h2 class="o-h-72">Developers</h2>
+            </div>
+
+            <main>
+                <div class = "card">
+                    <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80"
+                        alt="">
+                    <div class="card-content">
+                        <h2>
+                            Sageer Yousuf Pandith
+                        </h2>
+                        <p>
+                            <i class="fa fa-facebook"></i>
+
+                            <i class="fa fa-google"></i>
+
+                            <i class="fa fa-twitter"></i>
+
+                        </p>
+                    </div>
+
+                </div>
+                <div class = "card">
+                    <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80"
+                        alt="">
+                    <div class="card-content">
+                        <h2>
+                            Sageer Yousuf Pandith
+                        </h2>
+                        <p>
+                            <i class="fa fa-facebook"></i>
+
+                            <i class="fa fa-google"></i>
+
+                            <i class="fa fa-twitter"></i>
+
+                        </p>
+                    </div>
+
+                </div>
+                <div class = "card">
+                    <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80"
+                        alt="">
+                    <div class="card-content">
+                        <h2>
+                            Sageer Yousuf Pandith
+                        </h2>
+                        <p>
+                            <i class="fa fa-facebook"></i>
+
+                            <i class="fa fa-google"></i>
+
+                            <i class="fa fa-twitter"></i>
+
+                        </p>
+                    </div>
+
+                </div>
+
+            </main>
+        </div>
+
+
+    </section>
+
+    <section class="o-section is--mt-382 md--mt-120 sm--mt-0">
+        <hr>
+
+        <br>
+        <br>
+
+        <div class="o-container is--z-3">
+            <div class="o-l610 is--ml-84 md--ml-57">
+                <h2 class="o-h-72">Project Managers</h2>
+            </div>
+
+            <main>
+                <div class = "card">
+                    <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80"
+                        alt="">
+                    <div class="card-content">
+                        <h2>
+                            Sageer Yousuf Pandith
+                        </h2>
+                        <p>
+                            <i class="fa fa-facebook"></i>
+
+                            <i class="fa fa-google"></i>
+
+                            <i class="fa fa-twitter"></i>
+
+                        </p>
+                    </div>
+
+                </div>
+                <div class = "card">
+                    <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80"
+                        alt="">
+                    <div class="card-content">
+                        <h2>
+                            Sageer Yousuf Pandith
+                        </h2>
+                        <p>
+                            <i class="fa fa-facebook"></i>
+
+                            <i class="fa fa-google"></i>
+
+                            <i class="fa fa-twitter"></i>
+
+                        </p>
+                    </div>
+
+                </div>
+                <div class = "card">
+                    <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80"
+                        alt="">
+                    <div class="card-content">
+                        <h2>
+                            Sageer Yousuf Pandith
+                        </h2>
+                        <p>
+                            <i class="fa fa-facebook"></i>
+
+                            <i class="fa fa-google"></i>
+
+                            <i class="fa fa-twitter"></i>
+
+                        </p>
+                    </div>
+
+                </div>
+
+            </main>
+        </div>
+
+
+    </section>
+
+    <section class="o-section is--mt-382 md--mt-120 sm--mt-0">
+        <hr>
+
+        <br>
+        <br>
+
+        <div class="o-container is--z-3">
+            <div class="o-l610 is--ml-84 md--ml-57">
+                <h2 class="o-h-72">
+                    Business Development Executives
+                </h2>
+            </div>
+
+            <main>
+                <div class = "card">
+                    <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80"
+                        alt="">
+                    <div class="card-content">
+                        <h2>
+                            Sageer Yousuf Pandith
+                        </h2>
+                        <p>
+                            <i class="fa fa-facebook"></i>
+
+                            <i class="fa fa-google"></i>
+
+                            <i class="fa fa-twitter"></i>
+
+                        </p>
+                    </div>
+
+                </div>
+                <div class = "card">
+                    <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80"
+                        alt="">
+                    <div class="card-content">
+                        <h2>
+                            Sageer Yousuf Pandith
+                        </h2>
+                        <p>
+                            <i class="fa fa-facebook"></i>
+
+                            <i class="fa fa-google"></i>
+
+                            <i class="fa fa-twitter"></i>
+
+                        </p>
+                    </div>
+
+                </div>
+                <div class = "card">
+                    <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80"
+                        alt="">
+                    <div class="card-content">
+                        <h2>
+                            Sageer Yousuf Pandith
+                        </h2>
+                        <p>
+                            <i class="fa fa-facebook"></i>
+
+                            <i class="fa fa-google"></i>
+
+                            <i class="fa fa-twitter"></i>
+
+                        </p>
+                    </div>
+
+                </div>
+
+            </main>
+        </div>
+
+
+    </section>
+
+    <section class="o-section is--mt-382 md--mt-120 sm--mt-0">
+        <hr>
+
+        <br>
+        <br>
+
+        <div class="o-container is--z-3">
+            <div class="o-l610 is--ml-84 md--ml-57">
+                <h2 class="o-h-72">
+                    Social Media Specialists
+                    </h2>
+            </div>
+
+            <main>
+                <div class = "card">
+                    <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80"
+                        alt="">
+                    <div class="card-content">
+                        <h2>
+                            Sageer Yousuf Pandith
+                        </h2>
+                        <p>
+                            <i class="fa fa-facebook"></i>
+
+                            <i class="fa fa-google"></i>
+
+                            <i class="fa fa-twitter"></i>
+
+                        </p>
+                    </div>
+
+                </div>
+                <div class = "card">
+                    <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80"
+                        alt="">
+                    <div class="card-content">
+                        <h2>
+                            Sageer Yousuf Pandith
+                        </h2>
+                        <p>
+                            <i class="fa fa-facebook"></i>
+
+                            <i class="fa fa-google"></i>
+
+                            <i class="fa fa-twitter"></i>
+
+                        </p>
+                    </div>
+
+                </div>
+                <div class = "card">
+                    <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80"
+                        alt="">
+                    <div class="card-content">
+                        <h2>
+                            Sageer Yousuf Pandith
+                        </h2>
+                        <p>
+                            <i class="fa fa-facebook"></i>
+
+                            <i class="fa fa-google"></i>
+
+                            <i class="fa fa-twitter"></i>
+
+                        </p>
+                    </div>
+
+                </div>
+
+            </main>
+        </div>
+
+
+    </section>
+
+    <section class="o-section is--mt-382 md--mt-120 sm--mt-0">
+        <hr>
+
+        <br>
+        <br>
+
+        <div class="o-container is--z-3">
+            <div class="o-l610 is--ml-84 md--ml-57">
+                <h2 class="o-h-72">
+                    Outreach Specialists
+                    </h2>
+            </div>
+
+            <main>
+                <div class = "card">
+                    <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80"
+                        alt="">
+                    <div class="card-content">
+                        <h2>
+                            Sageer Yousuf Pandith
+                        </h2>
+                        <p>
+                            <i class="fa fa-facebook"></i>
+
+                            <i class="fa fa-google"></i>
+
+                            <i class="fa fa-twitter"></i>
+
+                        </p>
+                    </div>
+
+                </div>
+                <div class = "card">
+                    <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80"
+                        alt="">
+                    <div class="card-content">
+                        <h2>
+                            Sageer Yousuf Pandith
+                        </h2>
+                        <p>
+                            <i class="fa fa-facebook"></i>
+
+                            <i class="fa fa-google"></i>
+
+                            <i class="fa fa-twitter"></i>
+
+                        </p>
+                    </div>
+
+                </div>
+                <div class = "card">
+                    <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80"
+                        alt="">
+                    <div class="card-content">
+                        <h2>
+                            Sageer Yousuf Pandith
+                        </h2>
+                        <p>
+                            <i class="fa fa-facebook"></i>
+
+                            <i class="fa fa-google"></i>
+
+                            <i class="fa fa-twitter"></i>
+
+                        </p>
+                    </div>
+
+                </div>
+
+            </main>
+        </div>
+
+
+    </section>
+
+
+
+
 
     <section class="o-section is--mt-318 m--mt-240 s--mt-180">
         @include('Front.ContactSection')

@@ -2430,7 +2430,7 @@ figure {
 }
 
 .o-section.is--mt-382 {
-    margin-top: 100vh;
+    margin-top: 10rem;
 }
 
 .o-section.is--mt-344 {
@@ -5341,7 +5341,7 @@ figure {
 
     .o-section.is--mt-320.m--mt-0--h760 {
         height: 76rem;
-        margin-top: 0;
+        margin-top: 70rem;
     }
 
     .o-section.is--mt-260.m--mt-180 {
@@ -7857,9 +7857,8 @@ figure {
 
 /* Self */
 
-
+/*
 .card {
-    background: rgba(60, 60, 60, 1);
     padding: 2rem;
     border-radius: 10px;
     display: flex;
@@ -7897,7 +7896,7 @@ figure {
     border-radius: 10px;
     text-align: center;
 
-}
+} */
 
 .gradient {
     background: linear-gradient(90deg, #dec880, #fff 27%, #ff3980 57%, #827ded);

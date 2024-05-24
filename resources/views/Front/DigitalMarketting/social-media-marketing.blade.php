@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<!-- Last Published: Fri Feb 16 2024 19:06:42 GMT+0000 (Coordinated Universal Time) -->
-<html data-wf-domain="www.hyticon.com" data-wf-page="60a261f992d635606cef7545" data-wf-site="6092932467852e3af1741898">
+<html data-wf-page="60a261f992d635606cef7545" data-wf-site="6092932467852e3af1741898">
 
 <head>
     <meta charset="utf-8" />
@@ -108,6 +107,7 @@
                 </div>
             </a>
         </header>
+
         <section data-w-id="727a6afd-0141-2aee-e6c2-13f3e8a97c9a"
             class="o-section is--mt-380 m--mt-300--h1250 s--mt-88--h500">
 
@@ -122,7 +122,7 @@
                             Lead Generation
 
                             <div class="learn_more">
-                                <a href="{{route('lead-generation')}}">Learn More</a>
+                                <a href="">Learn More</a>
                             </div>
                         </h1>
                         <div class="o-layout is--mt-66">
@@ -179,7 +179,7 @@
                                     </svg>
                                 </div>
                             </figure>
-                            <h4 class="o-h-32 is--lcase">Accurate</h4>
+                            <h4 class="o-h-32 is--lcase">Accuracte</h4>
                         </div>
                         <div style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
                             class="o-flex-ss is--mt-56 m--mt-24 u-anim-2">
@@ -219,7 +219,7 @@
                                     </svg>
                                 </div>
                             </figure>
-                            <h4 class="o-h-32 is--lcase">Free From Duplicacy</h4>
+                            <h4 class="o-h-32 is--lcase">Comprehensive</h4>
                         </div>
                         <div style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
                             class="o-flex-ss is--mt-56 m--mt-24 u-anim-4">
@@ -327,6 +327,7 @@
                 </div>
             </div>
         </section>
+
         <div data-w-id="ec00db26-ee7c-6915-b475-8d4a2da82006" class="o-section is--mt-260 m--mt-180 s--mt-n64">
             <figure data-w-id="b58ef795-e891-71bf-e58f-162f87d57039" style="opacity:0" class="c-meteo-vid">
                 <div class="c-bg-grad-l"></div>
@@ -347,10 +348,9 @@
                     <div class="o-l1452 m--l527 s--100">
                         <h1 class="o-h-112 m--57 gradient">Appointments Setting
                             <div class="learn_more">
-                                <a href="{{route('appointment-settings')}}">Learn More</a>
+                                <a href="{{ route('appointment-settings') }}">Learn More</a>
                             </div>
                         </h1>
-
 
                         <div data-w-id="03b1306c-723f-f3cb-4434-c432e347caee"
                             class="o-flex-ss is--mt-123--pl34--ml-n40 m--mt72--pl-56--obo s--p-0--mt-56rem">
@@ -373,7 +373,7 @@
                                             </svg>
                                         </div>
                                     </figure>
-                                    <h4 class="o-h-32 is--lcase">Targeted Lead Generation</h4>
+                                    <h4 class="o-h-32 is--lcase">Accuracte</h4>
                                 </div>
                                 <div style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
                                     class="o-flex-ss is--mt-56 m--mt-24 u-anim-2">
@@ -393,7 +393,7 @@
                                             </svg>
                                         </div>
                                     </figure>
-                                    <h4 class="o-h-32 is--lcase">Personalized Outreach</h4>
+                                    <h4 class="o-h-32 is--lcase">Relevant</h4>
                                 </div>
                                 <div style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
                                     class="o-flex-ss is--mt-56 m--mt-24 u-anim-3">
@@ -413,7 +413,7 @@
                                             </svg>
                                         </div>
                                     </figure>
-                                    <h4 class="o-h-32 is--lcase">Networking</h4>
+                                    <h4 class="o-h-32 is--lcase">Comprehensive</h4>
                                 </div>
                                 <div style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
                                     class="o-flex-ss is--mt-56 m--mt-24 u-anim-4">
@@ -433,7 +433,7 @@
                                             </svg>
                                         </div>
                                     </figure>
-                                    <h4 class="o-h-32 is--lcase">Strategic Partnerships</h4>
+                                    <h4 class="o-h-32 is--lcase">Verified Fields</h4>
                                 </div>
                             </div>
                             <div class="o-l645 is--ml-154 m--ml-0--mt-24--auto">
@@ -455,7 +455,7 @@
                                             </svg>
                                         </div>
                                     </figure>
-                                    <h4 class="o-h-32 is--lcase">Sales Outreach Cadence</h4>
+                                    <h4 class="o-h-32 is--lcase">Fresh</h4>
                                 </div>
                                 <div style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
                                     class="o-flex-ss is--mt-56 m--mt-24 u-anim-6">
@@ -475,7 +475,7 @@
                                             </svg>
                                         </div>
                                     </figure>
-                                    <h4 class="o-h-32 is--lcase">Branding </h4>
+                                    <h4 class="o-h-32 is--lcase">Consistent</h4>
                                 </div>
                                 <div style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
                                     class="o-flex-ss is--mt-56 m--mt-24 u-anim-7">
@@ -495,7 +495,7 @@
                                             </svg>
                                         </div>
                                     </figure>
-                                    <h4 class="o-h-32 is--lcase">Increase in Engagments</h4>
+                                    <h4 class="o-h-32 is--lcase">Timeliness</h4>
                                 </div>
                                 <div style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
                                     class="o-flex-ss is--mt-56 m--mt-24 u-anim-8">
@@ -515,7 +515,7 @@
                                             </svg>
                                         </div>
                                     </figure>
-                                    <h4 class="o-h-32 is--lcase">Track and Analyze Results</h4>
+                                    <h4 class="o-h-32 is--lcase">Accessibile</h4>
                                 </div>
                             </div>
                         </div>
@@ -523,6 +523,7 @@
                 </div>
             </div>
         </div>
+
         <section data-w-id="f3965572-24ce-50ed-67a8-f840049dc5a1"
             class="o-section is--mt-320 m--mt-0--h760 s--mt-190">
             <figure class="c-eco-stripes">
@@ -548,7 +549,7 @@
                 <div class="o-flex-ss is--ml-80--pt-144 m--ml-57--pt-164--obo s--pt-0">
                     <div class="o-l522 m--l484 s--100">
                         <h1 class="o-h-112 m--57 gradient">Social Media Marketing <div class="learn_more">
-                                <a href="{{route('social-media-marketing')}}">Learn More</a>
+                                <a href="">Learn More</a>
                             </div>
                         </h1>
 
@@ -574,7 +575,7 @@
                                         </svg>
                                     </div>
                                 </figure>
-                                <h4 class="o-h-32 is--lcase">Social Media Strategy Development</h4>
+                                <h4 class="o-h-32 is--lcase">Accuracte</h4>
                             </div>
                             <div style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
                                 class="o-flex-ss is--mt-56 m--mt-24 u-anim-2">
@@ -594,7 +595,7 @@
                                         </svg>
                                     </div>
                                 </figure>
-                                <h4 class="o-h-32 is--lcase">Content Creation</h4>
+                                <h4 class="o-h-32 is--lcase">Relevant</h4>
                             </div>
                             <div style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
                                 class="o-flex-ss is--mt-56 m--mt-24 u-anim-3">
@@ -614,7 +615,7 @@
                                         </svg>
                                     </div>
                                 </figure>
-                                <h4 class="o-h-32 is--lcase">Community Management</h4>
+                                <h4 class="o-h-32 is--lcase">Comprehensive</h4>
                             </div>
                             <div style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
                                 class="o-flex-ss is--mt-56 m--mt-24 u-anim-4">
@@ -634,7 +635,7 @@
                                         </svg>
                                     </div>
                                 </figure>
-                                <h4 class="o-h-32 is--lcase">Advertising</h4>
+                                <h4 class="o-h-32 is--lcase">Verified Fields</h4>
                             </div>
                         </div>
                         <div class="o-l645 is--ml-154 m--ml-0--mt-24--auto">
@@ -656,7 +657,7 @@
                                         </svg>
                                     </div>
                                 </figure>
-                                <h4 class="o-h-32 is--lcase"> Performance Tracking</h4>
+                                <h4 class="o-h-32 is--lcase">Fresh</h4>
                             </div>
                             <div style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
                                 class="o-flex-ss is--mt-56 m--mt-24 u-anim-6">
@@ -676,7 +677,7 @@
                                         </svg>
                                     </div>
                                 </figure>
-                                <h4 class="o-h-32 is--lcase">Analytics</h4>
+                                <h4 class="o-h-32 is--lcase">Consistent</h4>
                             </div>
                             <div style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
                                 class="o-flex-ss is--mt-56 m--mt-24 u-anim-7">
@@ -696,7 +697,7 @@
                                         </svg>
                                     </div>
                                 </figure>
-                                <h4 class="o-h-32 is--lcase">Audience Research</h4>
+                                <h4 class="o-h-32 is--lcase">Timeliness</h4>
                             </div>
                             <div style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
                                 class="o-flex-ss is--mt-56 m--mt-24 u-anim-8">
@@ -716,20 +717,21 @@
                                         </svg>
                                     </div>
                                 </figure>
-                                <h4 class="o-h-32 is--lcase">Monitoring</h4>
+                                <h4 class="o-h-32 is--lcase">Accessibile</h4>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
         <section data-w-id="01367615-a06f-7230-e468-990a468e29f4" class="o-section is--mt-1062 m--mt-0"
             style="margin-top: 100rem;">
             <div class="o-container is--z-3">
                 <div class="o-layout is--mt-312--ml-72 m--ml-57--mt-0 s--ml-0--mt-0">
                     <div class="o-l1130 m--l567 s--100">
                         <h1 class="o-h-112 m--57 gradient">Email Marketing <div class="learn_more">
-                                <a href="{{route('email-marketing')}}">Learn More</a>
+                                <a href="">Learn More</a>
                             </div>
                         </h1>
 
@@ -757,7 +759,7 @@
                                                 </svg>
                                             </div>
                                         </figure>
-                                        <h4 class="o-h-32 is--lcase">Defining Your Goals</h4>
+                                        <h4 class="o-h-32 is--lcase">Accuracte</h4>
                                     </div>
                                     <div style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
                                         class="o-flex-ss is--mt-56 m--mt-24 u-anim-2">
@@ -777,7 +779,7 @@
                                                 </svg>
                                             </div>
                                         </figure>
-                                        <h4 class="o-h-32 is--lcase">RelevantBuilding Your Email List</h4>
+                                        <h4 class="o-h-32 is--lcase">Relevant</h4>
                                     </div>
                                     <div style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
                                         class="o-flex-ss is--mt-56 m--mt-24 u-anim-3">
@@ -797,7 +799,7 @@
                                                 </svg>
                                             </div>
                                         </figure>
-                                        <h4 class="o-h-32 is--lcase">Segmenting Email List</h4>
+                                        <h4 class="o-h-32 is--lcase">Comprehensive</h4>
                                     </div>
                                     <div style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
                                         class="o-flex-ss is--mt-56 m--mt-24 u-anim-4">
@@ -817,7 +819,7 @@
                                                 </svg>
                                             </div>
                                         </figure>
-                                        <h4 class="o-h-32 is--lcase">Creating Valuable Content</h4>
+                                        <h4 class="o-h-32 is--lcase">Verified Fields</h4>
                                     </div>
                                 </div>
                                 <div class="o-l645 is--ml-154 m--ml-0--mt-24--auto">
@@ -839,7 +841,7 @@
                                                 </svg>
                                             </div>
                                         </figure>
-                                        <h4 class="o-h-32 is--lcase">Design Customized Emails</h4>
+                                        <h4 class="o-h-32 is--lcase">Fresh</h4>
                                     </div>
                                     <div style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
                                         class="o-flex-ss is--mt-56 m--mt-24 u-anim-6">
@@ -859,7 +861,7 @@
                                                 </svg>
                                             </div>
                                         </figure>
-                                        <h4 class="o-h-32 is--lcase"> Right Time Strategy</h4>
+                                        <h4 class="o-h-32 is--lcase">Consistent</h4>
                                     </div>
                                     <div style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
                                         class="o-flex-ss is--mt-56 m--mt-24 u-anim-7">
@@ -879,7 +881,7 @@
                                                 </svg>
                                             </div>
                                         </figure>
-                                        <h4 class="o-h-32 is--lcase">Monitor and Analyze</h4>
+                                        <h4 class="o-h-32 is--lcase">Timeliness</h4>
                                     </div>
                                     <div style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
                                         class="o-flex-ss is--mt-56 m--mt-24 u-anim-8">
@@ -899,7 +901,7 @@
                                                 </svg>
                                             </div>
                                         </figure>
-                                        <h4 class="o-h-32 is--lcase">Optimize & Iterate</h4>
+                                        <h4 class="o-h-32 is--lcase">Accessibile</h4>
                                     </div>
                                 </div>
                             </div>

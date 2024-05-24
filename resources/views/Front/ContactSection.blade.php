@@ -43,7 +43,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="o-layout is--ml-42 s--auto">
+                <div class="o-layout is--ml-42 s--auto ">
                     <div class="o-txt-20--med">Book an Appointment</div>
                 </div>
             </div>
@@ -174,7 +174,7 @@
                     @csrf
 
                     <div class="o-layout is--pr-88 m--pr-150 s--pr-0">
-                        <p class="o-p-20--med is--grey">Whether it be questions, suggestions, recommendations or
+                        <p class="o-p-20--med is--grey ">Whether it be questions, suggestions, recommendations or
                             cooperation, we &#x27;d love to hear from you.</p>
                     </div>
                     <div class="o-layout is--mt-66 s--mt-40">
@@ -258,7 +258,7 @@
                             </svg>
                         </div>
                     </figure>
-                    <div class="o-txt-20--med is--centered">Thank you! Your submission has been received!</div>
+                    <div class="o-txt-20--med is--centered ">Thank you! Your submission has been received!</div>
                 </div>
                 <div class="c-form__error w-form-fail">
                     <div>Oops! Something went wrong while submitting the form.</div>
