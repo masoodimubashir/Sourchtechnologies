@@ -4,17 +4,7 @@
 <script src="https://assets-global.website-files.com/6092932467852e3af1741898/js/webflow.55ec2b966.js"
     type="text/javascript"></script>
 <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
-<script>
-    var cookieName = 'cookieClosed';
-    if (typeof Cookies.get(cookieName) !== 'undefined') {
-        $('.cookie-modal').remove();
-    }
-    $('.close-btn').on('click', function() {
-        Cookies.set(cookieName, 'ok', {
-            expires: 14
-        });
-    })
-</script>
+
 <script>
     history.scrollRestoration = "manual";
     $(window).on('beforeunload', function() {

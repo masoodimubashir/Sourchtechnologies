@@ -18822,6 +18822,7 @@
                 </div>
             </div>
         </figure>
+
         <div style="opacity:0" class="o-page">
 
 
@@ -19035,6 +19036,7 @@
             </div>
             @include('Front.Footer')
         </div>
+        
         @include('Front.Script')
     </body>
 </html>

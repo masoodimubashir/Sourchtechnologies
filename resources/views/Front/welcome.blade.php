@@ -36,24 +36,7 @@
             }
         </style>
     </div>
-    <div style="-webkit-transform:translate3d(0, 101%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 101%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 101%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 101%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
-        class="cookie-modal cookie-modal">
-        <figure class="cookie__target">
-            <img src="https://assets-global.website-files.com/6092932467852e3af1741898/60a7945b45fcf1d0730963e7_cookie-bg.png"
-                loading="lazy" sizes="(max-width: 479px) 83vw, (max-width: 991px) 69vw, 34vw"
-                srcset="https://assets-global.website-files.com/6092932467852e3af1741898/60a7945b45fcf1d0730963e7_cookie-bg-p-500.png 500w, https://assets-global.website-files.com/6092932467852e3af1741898/60a7945b45fcf1d0730963e7_cookie-bg.png 660w"
-                alt="" class="o-img" />
-        </figure>
-        <div class="c-cookie__infos">
-            <div class="o-txt-20">
-                The website uses cookies. <a href="/privacy-policy" class="o-txt-20--med has--hover">Learn more</a>
-            </div>
-            <a data-w-id="63907c93-fa4f-c531-bc3d-45a9c2052b77" href="#"
-                class="c-cookie__infos__bttn close-btn w-inline-block">
-                <div class="o-txt-20 is--ucase">ok</div>
-            </a>
-        </div>
-    </div>
+  
     <main style="opacity:0" class="o-page">
 
         <!--nav bar include here -->
