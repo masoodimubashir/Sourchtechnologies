@@ -47,7 +47,7 @@
             font-size: 1.5rem;
             transition: inset 0.3s 0.3s ease-out;
             font-weight: bolder;
-            color: burlywood;
+            color: red;
         }
 
         .card p {
