@@ -47,7 +47,7 @@
             font-size: 1.5rem;
             transition: inset 0.3s 0.3s ease-out;
             font-weight: bolder;
-            color: red;
+            color: brown;
         }
 
         .card p {
@@ -69,6 +69,7 @@
         .card p i {
             font-size: 3rem;
             cursor: pointer;
+            color: burlywood;
         }
 
 
@@ -166,13 +167,12 @@
 
         <div class="o-container is--z-3">
             <div class="o-l610 is--ml-84 md--ml-57">
-                <h2 class="o-h-72">Directors</h2>
+                <h2 class="o-h-72">Founding Members</h2>
             </div>
 
             <main>
                 <div class = "card">
-                    <img src="{{ asset('assets/Team/sageer_yousuf.jpeg') }}"
-                        alt="">
+                    <img src="{{ asset('assets/Team/sageer_yousuf.jpeg') }}" alt="">
                     <div class="card-content">
                         <h2>
                             Sageer Yousuf Pandith <br>
@@ -190,8 +190,7 @@
 
                 </div>
                 <div class = "card">
-                    <img src="{{ asset('assets/Team/mohd_yousuf_pandith.jpeg') }}"
-                        alt="">
+                    <img src="{{ asset('assets/Team/mohd_yousuf_pandith.jpeg') }}" alt="">
                     <div class="card-content">
                         <h2>
                             Mohammad Yousf Pandith
@@ -210,8 +209,7 @@
 
                 </div>
                 <div class = "card">
-                    <img src="{{ asset('assets/Team/Akhter_Mohtashim.jpeg') }}"
-                        alt="">
+                    <img src="{{ asset('assets/Team/Akhter_Mohtashim.jpeg') }}" alt="">
                     <div class="card-content">
                         <h2>
                             Akhter Mohtashim
@@ -247,16 +245,17 @@
 
         <div class="o-container is--z-3">
             <div class="o-l610 is--ml-84 md--ml-57">
-                <h2 class="o-h-72">FOUNDING MEMBERS</h2>
+                <h2 class="o-h-72">Directors</h2>
             </div>
 
             <main>
                 <div class = "card">
-                    <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80"
-                        alt="">
+                    <img src="{{ asset('assets/Team/rafiq_ahmad_dar.jpeg') }}" alt="">
                     <div class="card-content">
                         <h2>
-                            Sageer Yousuf Pandith
+                            Rafique Ahmad Dar
+                            <br>
+                            Director of Project Management
                         </h2>
                         <p>
                             <i class="fa fa-facebook"></i>
@@ -270,11 +269,12 @@
 
                 </div>
                 <div class = "card">
-                    <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80"
-                        alt="">
+                    <img src="{{ asset('assets/Team/nisar_Ahmad_khan.jpeg') }}" alt="">
                     <div class="card-content">
                         <h2>
-                            Sageer Yousuf Pandith
+                            Nisar Ahmad Khan
+                            <br>
+                            Director Of Business Operations
                         </h2>
                         <p>
                             <i class="fa fa-facebook"></i>
@@ -288,11 +288,13 @@
 
                 </div>
                 <div class = "card">
-                    <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80"
-                        alt="">
+                    <img src="" alt="{{ asset('assets/Team/rameez_maqbool.jpeg') }}">
                     <div class="card-content">
                         <h2>
-                            Sageer Yousuf Pandith
+                            Rameez Maqbool
+                            <br>
+
+
                         </h2>
                         <p>
                             <i class="fa fa-facebook"></i>
@@ -327,11 +329,10 @@
 
             <main>
                 <div class = "card">
-                    <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80"
-                        alt="">
+                    <img src="{{ asset('assets/Team/akhtar_mustafa.jpeg') }}" alt="">
                     <div class="card-content">
                         <h2>
-                            Sageer Yousuf Pandith
+                            Akhter Mustafa
                         </h2>
                         <p>
                             <i class="fa fa-facebook"></i>
@@ -345,11 +346,10 @@
 
                 </div>
                 <div class = "card">
-                    <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80"
-                        alt="">
+                    <img src="{{ asset('assets/Team/amir_ahmad.jpeg') }}" alt="">
                     <div class="card-content">
                         <h2>
-                            Sageer Yousuf Pandith
+                            Amir Ahamd
                         </h2>
                         <p>
                             <i class="fa fa-facebook"></i>
@@ -363,11 +363,10 @@
 
                 </div>
                 <div class = "card">
-                    <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80"
-                        alt="">
+                    <img src="{{ asset('assets/Team/zubair_utl_islam.jpeg') }}" alt="">
                     <div class="card-content">
                         <h2>
-                            Sageer Yousuf Pandith
+                            Zubair Ul Islam
                         </h2>
                         <p>
                             <i class="fa fa-facebook"></i>
@@ -400,11 +399,12 @@
 
             <main>
                 <div class = "card">
-                    <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80"
-                        alt="">
+                    <img src="{{ asset('assets/Team/azhar_rashid_teli.jpeg') }}" alt="">
                     <div class="card-content">
                         <h2>
-                            Sageer Yousuf Pandith
+                            Azhar Rashid Teli
+                            <br>
+                            Full Stack Developer
                         </h2>
                         <p>
                             <i class="fa fa-facebook"></i>
@@ -418,11 +418,12 @@
 
                 </div>
                 <div class = "card">
-                    <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80"
-                        alt="">
+                    <img src="{{ asset('assets/Team/krishna_priha.jpeg') }}" alt="">
                     <div class="card-content">
                         <h2>
-                            Sageer Yousuf Pandith
+                            Krishna Priha
+                            <br>
+                            UI/UX Designer
                         </h2>
                         <p>
                             <i class="fa fa-facebook"></i>
@@ -436,11 +437,10 @@
 
                 </div>
                 <div class = "card">
-                    <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80"
-                        alt="">
+                    <img src="" alt="">
                     <div class="card-content">
                         <h2>
-                            Sageer Yousuf Pandith
+                            Taha Mubashir Masoodi
                         </h2>
                         <p>
                             <i class="fa fa-facebook"></i>
@@ -473,11 +473,10 @@
 
             <main>
                 <div class = "card">
-                    <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80"
-                        alt="">
+                    <img src="{{ asset('assets/Team/javaid_ali.jpeg') }}" alt="">
                     <div class="card-content">
                         <h2>
-                            Sageer Yousuf Pandith
+                            Javiad Ali
                         </h2>
                         <p>
                             <i class="fa fa-facebook"></i>
@@ -491,11 +490,10 @@
 
                 </div>
                 <div class = "card">
-                    <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80"
-                        alt="">
+                    <img src="{{ asset('assets/Team/frahan_fayaz_rathar.jpeg') }}" alt="">
                     <div class="card-content">
                         <h2>
-                            Sageer Yousuf Pandith
+                            Farhan Fayaz Rather
                         </h2>
                         <p>
                             <i class="fa fa-facebook"></i>
@@ -509,11 +507,10 @@
 
                 </div>
                 <div class = "card">
-                    <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80"
-                        alt="">
+                    <img src="asset('assets/Team/ubaid_azam.jpeg')" alt="">
                     <div class="card-content">
                         <h2>
-                            Sageer Yousuf Pandith
+                            Ubaid Azam
                         </h2>
                         <p>
                             <i class="fa fa-facebook"></i>
@@ -548,11 +545,10 @@
 
             <main>
                 <div class = "card">
-                    <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80"
-                        alt="">
+                    <img src="{{ asset('assets/Team/default.jpeg') }}" alt="">
                     <div class="card-content">
                         <h2>
-                            Sageer Yousuf Pandith
+                            Taskeena Yousf
                         </h2>
                         <p>
                             <i class="fa fa-facebook"></i>
@@ -566,11 +562,12 @@
 
                 </div>
                 <div class = "card">
-                    <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80"
+                    <img src="{{ asset('assets/Team/default.jpeg') }}"
                         alt="">
                     <div class="card-content">
                         <h2>
-                            Sageer Yousuf Pandith
+                           Shahnaza Bano.
+
                         </h2>
                         <p>
                             <i class="fa fa-facebook"></i>
@@ -584,11 +581,12 @@
 
                 </div>
                 <div class = "card">
-                    <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80"
+                    <img src="{{ asset('assets/Team/default.jpeg') }}"
                         alt="">
                     <div class="card-content">
                         <h2>
-                            Sageer Yousuf Pandith
+                            3. Khyruna Nissa
+
                         </h2>
                         <p>
                             <i class="fa fa-facebook"></i>
@@ -602,6 +600,65 @@
 
                 </div>
 
+                <div class = "card">
+                    <img src="{{ asset('assets/Team/default.jpeg') }}"
+                        alt="">
+                    <div class="card-content">
+                        <h2>
+                            Nisha Bakshi
+
+                        </h2>
+                        <p>
+                            <i class="fa fa-facebook"></i>
+
+                            <i class="fa fa-google"></i>
+
+                            <i class="fa fa-twitter"></i>
+
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class = "card">
+                    <img src="{{ asset('assets/Team/default.jpeg') }}"
+                        alt="">
+                    <div class="card-content">
+                        <h2>
+                            Allysa Rose
+
+                        </h2>
+                        <p>
+                            <i class="fa fa-facebook"></i>
+
+                            <i class="fa fa-google"></i>
+
+                            <i class="fa fa-twitter"></i>
+
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class = "card">
+                    <img src="{{ asset('assets/Team/default.jpeg') }}"
+                        alt="">
+                    <div class="card-content">
+                        <h2>
+                            Mehruk Hayat
+
+                        </h2>
+                        <p>
+                            <i class="fa fa-facebook"></i>
+
+                            <i class="fa fa-google"></i>
+
+                            <i class="fa fa-twitter"></i>
+
+                        </p>
+                    </div>
+
+                </div>
             </main>
         </div>
 
@@ -618,16 +675,17 @@
             <div class="o-l610 is--ml-84 md--ml-57">
                 <h2 class="o-h-72">
                     Social Media Specialists
-                    </h2>
+                </h2>
             </div>
 
             <main>
                 <div class = "card">
-                    <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80"
+                    <img src="{{ asset('assets/Team/default.jpeg') }}"
                         alt="">
                     <div class="card-content">
                         <h2>
-                            Sageer Yousuf Pandith
+                            Maryama Akhter
+
                         </h2>
                         <p>
                             <i class="fa fa-facebook"></i>
@@ -641,11 +699,12 @@
 
                 </div>
                 <div class = "card">
-                    <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80"
+                    <img src="{{ asset('assets/Team/default.jpeg') }}"
                         alt="">
                     <div class="card-content">
                         <h2>
-                            Sageer Yousuf Pandith
+                             Nissara Bano
+
                         </h2>
                         <p>
                             <i class="fa fa-facebook"></i>
@@ -659,11 +718,11 @@
 
                 </div>
                 <div class = "card">
-                    <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80"
+                    <img src="{{ asset('assets/Team/default.jpeg') }}"
                         alt="">
                     <div class="card-content">
                         <h2>
-                            Sageer Yousuf Pandith
+                          Asima Fatimah
                         </h2>
                         <p>
                             <i class="fa fa-facebook"></i>
@@ -693,16 +752,17 @@
             <div class="o-l610 is--ml-84 md--ml-57">
                 <h2 class="o-h-72">
                     Outreach Specialists
-                    </h2>
+                </h2>
             </div>
 
             <main>
                 <div class = "card">
-                    <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80"
+                    <img src="{{ asset('assets/Team/default.jpeg') }}"
                         alt="">
                     <div class="card-content">
                         <h2>
-                            Sageer Yousuf Pandith
+                            Fatimah Sughra
+
                         </h2>
                         <p>
                             <i class="fa fa-facebook"></i>
@@ -716,11 +776,12 @@
 
                 </div>
                 <div class = "card">
-                    <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80"
+                    <img src="{{ asset('assets/Team/default.jpeg') }}"
                         alt="">
                     <div class="card-content">
                         <h2>
-                            Sageer Yousuf Pandith
+                            Abida
+
                         </h2>
                         <p>
                             <i class="fa fa-facebook"></i>
@@ -734,11 +795,12 @@
 
                 </div>
                 <div class = "card">
-                    <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80"
+                    <img src="{{ asset('assets/Team/default.jpeg') }}"
                         alt="">
                     <div class="card-content">
                         <h2>
-                            Sageer Yousuf Pandith
+                            Toufeeqa
+
                         </h2>
                         <p>
                             <i class="fa fa-facebook"></i>
@@ -751,6 +813,66 @@
                     </div>
 
                 </div>
+
+                <div class = "card">
+                    <img src="{{ asset('assets/Team/default.jpeg') }}"
+                        alt="">
+                    <div class="card-content">
+                        <h2>
+                            Syed Hussain
+
+
+                        </h2>
+                        <p>
+                            <i class="fa fa-facebook"></i>
+
+                            <i class="fa fa-google"></i>
+
+                            <i class="fa fa-twitter"></i>
+
+                        </p>
+                    </div>
+
+                </div>
+                <div class = "card">
+                    <img src="{{ asset('assets/Team/default.jpeg') }}"
+                        alt="">
+                    <div class="card-content">
+                        <h2>
+                            Sajad Ahmad
+                        </h2>
+                        <p>
+                            <i class="fa fa-facebook"></i>
+
+                            <i class="fa fa-google"></i>
+
+                            <i class="fa fa-twitter"></i>
+
+                        </p>
+                    </div>
+
+                </div>
+                <div class = "card">
+                    <img src="{{ asset('assets/Team/default.jpeg') }}"
+                        alt="">
+                    <div class="card-content">
+                        <h2>
+                            Saima Maqbool
+
+                        </h2>
+                        <p>
+                            <i class="fa fa-facebook"></i>
+
+                            <i class="fa fa-google"></i>
+
+                            <i class="fa fa-twitter"></i>
+
+                        </p>
+                    </div>
+
+                </div>
+
+
 
             </main>
         </div>
