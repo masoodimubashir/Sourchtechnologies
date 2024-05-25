@@ -15,7 +15,6 @@
             justify-content: space-evenly;
             align-items: center;
             padding: 50px;
-            font-family: "Roboto", sans-serif;
         }
 
         .card {
@@ -48,8 +47,7 @@
             font-size: 1.5rem;
             transition: inset 0.3s 0.3s ease-out;
             font-weight: bolder;
-
-
+            color: burlywood;
         }
 
         .card p {
@@ -232,7 +230,7 @@
 
                 </div>
 
-        
+
 
             </main>
         </div>
