@@ -533,7 +533,7 @@
 
                 </div>
                 <div class = "card">
-                    <img src="asset('assets/Team/ubaid_azam.jpeg')" alt="">
+                    <img src="{{ asset('assets/Team/ubaid_azam.jpeg') }}" alt="">
                     <div class="card-content">
                         <h2>
                             Ubaid Azam
