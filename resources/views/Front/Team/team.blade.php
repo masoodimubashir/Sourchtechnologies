@@ -45,7 +45,7 @@
             position: absolute;
             inset: auto auto 20px 20px;
             margin: 0;
-            font-size: 2rem;
+            font-size: 1.5rem;
             transition: inset 0.3s 0.3s ease-out;
             font-weight: bolder;
 
@@ -160,6 +160,85 @@
     </header>
 
 
+    <section class="o-section is--mt-382 md--mt-120 sm--mt-0">
+        <hr>
+
+        <br>
+        <br>
+
+        <div class="o-container is--z-3">
+            <div class="o-l610 is--ml-84 md--ml-57">
+                <h2 class="o-h-72">Directors</h2>
+            </div>
+
+            <main>
+                <div class = "card">
+                    <img src="{{ asset('assets/Team/sageer_yousuf.jpeg') }}"
+                        alt="">
+                    <div class="card-content">
+                        <h2>
+                            Sageer Yousuf Pandith <br>
+                            Managing Director
+                        </h2>
+                        <p>
+                            <i class="fa fa-facebook"></i>
+
+                            <i class="fa fa-google"></i>
+
+                            <i class="fa fa-twitter"></i>
+
+                        </p>
+                    </div>
+
+                </div>
+                <div class = "card">
+                    <img src="{{ asset('assets/Team/mohd_yousuf_pandith.jpeg') }}"
+                        alt="">
+                    <div class="card-content">
+                        <h2>
+                            Mohammad Yousf Pandith
+                            <br>
+                            Chief Financial Officer
+                        </h2>
+                        <p>
+                            <i class="fa fa-facebook"></i>
+
+                            <i class="fa fa-google"></i>
+
+                            <i class="fa fa-twitter"></i>
+
+                        </p>
+                    </div>
+
+                </div>
+                <div class = "card">
+                    <img src="{{ asset('assets/Team/Akhter_Mohtashim.jpeg') }}"
+                        alt="">
+                    <div class="card-content">
+                        <h2>
+                            Akhter Mohtashim
+                            <br>
+                            Co-Founder
+                        </h2>
+                        <p>
+                            <i class="fa fa-facebook"></i>
+
+                            <i class="fa fa-google"></i>
+
+                            <i class="fa fa-twitter"></i>
+
+                        </p>
+                    </div>
+
+                </div>
+
+        
+
+            </main>
+        </div>
+
+
+    </section>
 
 
     <section class="o-section is--mt-382 md--mt-120 sm--mt-0">
@@ -235,97 +314,7 @@
 
     </section>
 
-    <section class="o-section is--mt-382 md--mt-120 sm--mt-0">
-        <hr>
 
-        <br>
-        <br>
-
-        <div class="o-container is--z-3">
-            <div class="o-l610 is--ml-84 md--ml-57">
-                <h2 class="o-h-72">Directors</h2>
-            </div>
-
-            <main>
-                <div class = "card">
-                    <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80"
-                        alt="">
-                    <div class="card-content">
-                        <h2>
-                            Sageer Yousuf Pandith
-                        </h2>
-                        <p>
-                            <i class="fa fa-facebook"></i>
-
-                            <i class="fa fa-google"></i>
-
-                            <i class="fa fa-twitter"></i>
-
-                        </p>
-                    </div>
-
-                </div>
-                <div class = "card">
-                    <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80"
-                        alt="">
-                    <div class="card-content">
-                        <h2>
-                            Sageer Yousuf Pandith
-                        </h2>
-                        <p>
-                            <i class="fa fa-facebook"></i>
-
-                            <i class="fa fa-google"></i>
-
-                            <i class="fa fa-twitter"></i>
-
-                        </p>
-                    </div>
-
-                </div>
-                <div class = "card">
-                    <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80"
-                        alt="">
-                    <div class="card-content">
-                        <h2>
-                            Sageer Yousuf Pandith
-                        </h2>
-                        <p>
-                            <i class="fa fa-facebook"></i>
-
-                            <i class="fa fa-google"></i>
-
-                            <i class="fa fa-twitter"></i>
-
-                        </p>
-                    </div>
-
-                </div>
-
-                <div class = "card">
-                    <img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80"
-                        alt="">
-                    <div class="card-content">
-                        <h2>
-                            Sageer Yousuf Pandith
-                        </h2>
-                        <p>
-                            <i class="fa fa-facebook"></i>
-
-                            <i class="fa fa-google"></i>
-
-                            <i class="fa fa-twitter"></i>
-
-                        </p>
-                    </div>
-
-                </div>
-
-            </main>
-        </div>
-
-
-    </section>
 
     <section class="o-section is--mt-382 md--mt-120 sm--mt-0">
         <hr>

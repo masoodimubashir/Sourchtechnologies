@@ -39,7 +39,7 @@
         </style>
     </div>
 
-   
+
 
     <div style="opacity:0" class="o-page">
 
@@ -61,10 +61,8 @@
                     <video id="54f8f8bb-e77e-4879-f30a-600e75a694e7-video" autoplay="" loop=""
                         style="background-image:url(&quot;https://assets-global.website-files.com/6092932467852e3af1741898/60b5f6c6942431b283e795fd_def-sol-poster-00001.jpg&quot;)"
                         muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover">
-                        <source src="assets/programming.mp4" data-wf-ignore="true" />
-                        <source
-                            src="https://assets-global.website-files.com/6092932467852e3af1741898/60b5f6c6942431b283e795fd_def-sol-transcode.webm"
-                            data-wf-ignore="true" />
+                        <source src="{{ asset('assets/appointment.mp4') }}" data-wf-ignore="true" />
+                        <source src="{{ asset('assets/appointment.mp4') }}" data-wf-ignore="true" />
                     </video>
                 </figure>
                 <img src="https://assets-global.website-files.com/6092932467852e3af1741898/60b5f47378e877a88e30c698_def-sol-var4-min.png"

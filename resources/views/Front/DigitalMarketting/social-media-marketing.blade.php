@@ -34,7 +34,7 @@
             }
         </style>
     </div>
-   
+
     <div style="opacity:0" class="o-page">
         @include('Front.Navbar')
         <header class="o-section s--mt-n56">
@@ -51,7 +51,7 @@
                     <video id="d2873164-e129-c9f8-5ba8-e6bb2befb085-video" autoplay="" loop=""
                         style="background-image:url(&quot;https://assets-global.website-files.com/6092932467852e3af1741898/60a7b5c08222b2fbdd53d192_video_cut_1_1920x1080-poster-00001.jpg&quot;)"
                         muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover">
-                        <source src="assets/digital-marketingvideo.mp4" data-wf-ignore="true" />
+                        <source src="{{ asset('assets/social_media.mp4') }}" data-wf-ignore="true" />
                         <source
                             src="https://assets-global.website-files.com/6092932467852e3af1741898/60a7b5c08222b2fbdd53d192_video_cut_1_1920x1080-transcode.webm"
                             data-wf-ignore="true" />
