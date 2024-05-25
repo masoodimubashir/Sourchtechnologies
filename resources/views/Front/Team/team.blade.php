@@ -249,6 +249,28 @@
             </div>
 
             <main>
+
+                <div class = "card">
+                    <img src="{{ asset('assets/Team/sandeep.jpeg') }}" alt="">
+                    <div class="card-content">
+                        <h2>
+                            Sandeep Kour
+                            <br>
+
+                            Director of HR
+                        </h2>
+                        <p>
+                            <i class="fa fa-facebook"></i>
+
+                            <i class="fa fa-google"></i>
+
+                            <i class="fa fa-twitter"></i>
+
+                        </p>
+                    </div>
+
+                </div>
+
                 <div class = "card">
                     <img src="{{ asset('assets/Team/rafiq_ahmad_dar.jpeg') }}" alt="">
                     <div class="card-content">
@@ -288,7 +310,7 @@
 
                 </div>
                 <div class = "card">
-                    <img src="" alt="{{ asset('assets/Team/rameez_maqbool.jpeg') }}">
+                    <img src="{{ asset('assets/Team/rameez_maqbool.jpeg') }}" alt="">
                     <div class="card-content">
                         <h2>
                             Rameez Maqbool
@@ -307,6 +329,8 @@
                     </div>
 
                 </div>
+
+
 
             </main>
         </div>
@@ -437,10 +461,12 @@
 
                 </div>
                 <div class = "card">
-                    <img src="" alt="">
+                    <img src="{{ asset('assets/Team/mubashir.jpeg') }}" alt="">
                     <div class="card-content">
                         <h2>
                             Taha Mubashir Masoodi
+                            <br>
+                            Full Stack Developer
                         </h2>
                         <p>
                             <i class="fa fa-facebook"></i>
