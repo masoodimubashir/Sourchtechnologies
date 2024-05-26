@@ -36,7 +36,7 @@
             }
         </style>
     </div>
-  
+
     <main style="opacity:0" class="o-page">
 
         <!--nav bar include here -->
@@ -229,6 +229,7 @@
                 </a>
             </div>
         </header>
+
         <section data-w-id="dc57bb6c-0b9d-dd53-81fa-4569cdbaebcc" class="o-section is--mt-180 m--mt-90 s--mt-46">
             <div class="o-container">
                 <div class="o-flex-ss is--ml-261 m--ml-28--grid s--obo">
@@ -327,6 +328,7 @@
                 </div>
             </div>
         </section>
+
         <section class="o-section is--pt-188 m--mt-n32 s--mt-64">
             <figure data-w-id="99662f92-5bd4-1a54-8e7f-a86533ff68e0" style="opacity:0" class="c-company-bg">
 
@@ -397,6 +399,7 @@
             </div>
             </div>
         </section>
+
         <header class="o-section s--pt-88">
             <div class="o-container">
                 <h2 class="o-h-56">

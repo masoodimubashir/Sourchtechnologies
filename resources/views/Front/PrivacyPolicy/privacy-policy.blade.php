@@ -18827,6 +18827,7 @@
 
 
             @include('Front.Navbar')
+
             <div class="s-p w-dyn-list">
                 <div role="list" class="s-p__list w-dyn-items">
                     <div role="listitem" class="s-p__item w-dyn-item">
@@ -18836,8 +18837,7 @@
                                     <div class="o-l1440 is--ml-80 m--mx-52 s--mx-0">
                                         <div class="o-layout is--mt-96">
                                             <h2 class="o-h-72">
-                                                <span class="u-anim-h72line-1">Terms Of Service</span>
-                                                <span class="u-anim-h72line-2">and privacy policy</span>
+                                                <span class="u-anim-h72line-1">Terms Of Service and privacy policy</span>
                                             </h2>
                                         </div>
                                         <div class="o-flex-cs is--mt-56">
@@ -19036,7 +19036,7 @@
             </div>
             @include('Front.Footer')
         </div>
-        
+
         @include('Front.Script')
     </body>
 </html>

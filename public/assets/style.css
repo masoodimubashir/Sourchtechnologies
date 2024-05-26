@@ -7839,10 +7839,8 @@ figure {
 .socil-icon ul li {
     list-style-type: none;
     display: inline-block;
-    width: 40px;
-    height: 40px;
-    border: 1px solid #fff;
-    border-radius: 50%;
+    width: 34px;
+    height: 34px;
     text-align: center;
     margin: 0 auto;
     font-size: 20px;
