@@ -80,7 +80,7 @@
                         <h1 class="o-h-112 m--57">
                             <solutions data-w-id="4645020b-b08f-33c8-a40e-9267901c0b6c"
                                 style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
-                                class="u-h112line-1 m--57 gradient">Lead Generation Process</span>
+                                class="u-h112line-1 m--57 gradient"></span>
                         </h1>
                     </div>
                     <div class="o-l420 is--mt-230 m--mt-235 s--100--mt-24">
@@ -103,12 +103,12 @@
 
 
 
-        <section class="o-section is--mt-265 md--mt-200 sm--mt-150">
+        <section class="o-section is--mt-265 md--mt-200 sm--mt-150" style="padding-top: 20rem">
             <div class="o-container is--z-3 md--vflex">
 
                 <div class="o-l503 is--ml-84 md--ml-52 sm--auto" style="color: white">
                     <h2 style="padding-top: 5rem !important;">
-                        Step 1 <br />
+                        Lead Generation Process <br />
                     </h2>
                     <h4>
                         Analyzing your requirements.
@@ -202,13 +202,11 @@
             <div class="o-container is--z-3 md--vflex">
 
                 <div class="o-l503 is--ml-84 md--ml-52 sm--auto" style="color: white">
-                    <h2>
-                        Step 2 <br />
-                    </h2>
-                    <h2>
+
+                    <h4>
                         Deployment of Lead
                         Generation Experts
-                    </h2>
+                    </h4>
 
                 </div>
                 <div data-w-id="8d09d9ea-a0db-18bd-81b7-7d74a165a843"
@@ -303,14 +301,12 @@
             <div class="o-container is--z-3 md--vflex">
 
                 <div class="o-l503 is--ml-84 md--ml-52 sm--auto" style="color: white">
-                    <h2>
-                        Step 3 <br />
-                    </h2>
-                    <h2>
+
+                    <h4>
                         Uploading your leads into our
                         lead locker for easy access
 
-                    </h2>
+                    </h4>
 
                 </div>
                 <div data-w-id="8d09d9ea-a0db-18bd-81b7-7d74a165a843"
