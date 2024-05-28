@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<!-- Last Published: Fri Feb 16 2024 19:06:42 GMT+0000 (Coordinated Universal Time) -->
-<html data-wf-domain="www.hyticon.com" data-wf-page="6092932467852e60ce74189a" data-wf-site="6092932467852e3af1741898">
+<html data-wf-page="6092932467852e60ce74189a" data-wf-site="6092932467852e3af1741898">
 
 <head>
     <meta charset="utf-8" />

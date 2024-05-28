@@ -44,7 +44,7 @@
                     </div>
                 </div>
                 <div class="o-layout is--ml-42 s--auto ">
-                    <div class="o-txt-20--med">Book an Appointment</div>
+                    <div class="o-txt-20--med">Book &nbsp; Appointment</div>
                 </div>
             </div>
 

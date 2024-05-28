@@ -4387,7 +4387,7 @@ figure {
 .c-meteo-vid {
     z-index: -3;
     width: 100%;
-    height: 105rem;
+    height: 110rem;
     border-top-left-radius: 6.4rem;
     border-top-right-radius: 6.4rem;
     margin-bottom: 0;
@@ -6131,6 +6131,8 @@ figure {
         display: flex;
     }
 
+
+
     .s-c-nav__container {
         margin-left: 9.772rem;
     }
@@ -6241,7 +6243,7 @@ figure {
     }
 
     .c-meteo-vid {
-        height: 84rem;
+        height: 130rem;
         border-top-left-radius: 3.2rem;
         border-top-right-radius: 3.2rem;
     }
@@ -7839,8 +7841,8 @@ figure {
 .socil-icon ul li {
     list-style-type: none;
     display: inline-block;
-    width: 34px;
-    height: 34px;
+    width: 30px;
+    height: 30px;
     text-align: center;
     margin: 0 auto;
     font-size: 20px;
