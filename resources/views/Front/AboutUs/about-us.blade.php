@@ -34,7 +34,7 @@
 
             @media (max-width: 479px) {
                 :root {
-                    font-size: 2.666666666666667vw;
+                    font-size: 1.666666666666667vw;
                 }
             }
 
@@ -49,14 +49,7 @@
     </div>
 
     <main style="opacity:0" class="o-page">
-        <figure data-w-id="2e7b80aa-3aef-7913-8227-403d986776ac"
-            style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:1"
-            class="c-planet-bg">
-            <img src="https://assets-global.website-files.com/6092932467852e3af1741898/60a7ad6275f69c85432b557e_planet-min-v4.png"
-                loading="eager"
-                srcset="https://assets-global.website-files.com/6092932467852e3af1741898/60a7ad6275f69c85432b557e_planet-min-v4-p-500.png 500w, https://assets-global.website-files.com/6092932467852e3af1741898/60a7ad6275f69c85432b557e_planet-min-v4-p-800.png 800w, https://assets-global.website-files.com/6092932467852e3af1741898/60a7ad6275f69c85432b557e_planet-min-v4-p-1080.png 1080w, https://assets-global.website-files.com/6092932467852e3af1741898/60a7ad6275f69c85432b557e_planet-min-v4-p-1600.png 1600w, https://assets-global.website-files.com/6092932467852e3af1741898/60a7ad6275f69c85432b557e_planet-min-v4.png 2571w"
-                alt="Planet BG" sizes="100vw" class="o-img u-anim" />
-        </figure>
+
 
         @include('Front.Navbar')
 

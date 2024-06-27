@@ -1,11 +1,11 @@
-<nav class="c-nav s--none">
+<nav class="c-nav">
     <div class="c-nav__wrap">
         <a href="/" aria-current="page" class="c-nav__logo-wrapper w-inline-block w--current">
             <div class="c-nav__logo w-embed">
                 <img src="{{ asset('assets/logo.png') }}">
             </div>
         </a>
-        <div class="c-nav__summary">
+        <div class="">
             <div class="c-nav__summary__item">
                 <figure class="c-nav__summary__vline-wrapper">
                     <div class="c-nav__summary__vline w-embed">

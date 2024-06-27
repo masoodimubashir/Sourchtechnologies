@@ -17,6 +17,23 @@
             padding: 50px;
         }
 
+        main ul {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            width: 100%;
+            color: whitesmoke;
+        }
+
+
+
+        main ul li:hover {
+            transform: translateX(10px);
+            cursor: pointer;
+            transition-delay: .2s;
+            transition-duration: .5s
+        }
+
         .card {
             width: 24rem;
             height: 36rem;
@@ -570,121 +587,27 @@
             </div>
 
             <main>
-                <div class = "card">
-                    <img src="{{ asset('assets/Team/default.jpeg') }}" alt="">
-                    <div class="card-content">
-                        <h2>
-                            Taskeena Yousf
-                        </h2>
-                        <p>
-                            <i class="fa fa-facebook"></i>
+                <ul>
+                    <li>
+                        Taskeena Yousf
+                    </li>
+                    <li>
+                        Shahnaza Bano.
+                    </li>
+                    <li>
+                        Khyruna Nissa
+                    </li>
+                    <li>
+                        Nisha Bakshi
 
-                            <i class="fa fa-google"></i>
-
-                            <i class="fa fa-twitter"></i>
-
-                        </p>
-                    </div>
-
-                </div>
-                <div class = "card">
-                    <img src="{{ asset('assets/Team/default.jpeg') }}"
-                        alt="">
-                    <div class="card-content">
-                        <h2>
-                           Shahnaza Bano.
-
-                        </h2>
-                        <p>
-                            <i class="fa fa-facebook"></i>
-
-                            <i class="fa fa-google"></i>
-
-                            <i class="fa fa-twitter"></i>
-
-                        </p>
-                    </div>
-
-                </div>
-                <div class = "card">
-                    <img src="{{ asset('assets/Team/default.jpeg') }}"
-                        alt="">
-                    <div class="card-content">
-                        <h2>
-                            3. Khyruna Nissa
-
-                        </h2>
-                        <p>
-                            <i class="fa fa-facebook"></i>
-
-                            <i class="fa fa-google"></i>
-
-                            <i class="fa fa-twitter"></i>
-
-                        </p>
-                    </div>
-
-                </div>
-
-                <div class = "card">
-                    <img src="{{ asset('assets/Team/default.jpeg') }}"
-                        alt="">
-                    <div class="card-content">
-                        <h2>
-                            Nisha Bakshi
-
-                        </h2>
-                        <p>
-                            <i class="fa fa-facebook"></i>
-
-                            <i class="fa fa-google"></i>
-
-                            <i class="fa fa-twitter"></i>
-
-                        </p>
-                    </div>
-
-                </div>
-
-                <div class = "card">
-                    <img src="{{ asset('assets/Team/default.jpeg') }}"
-                        alt="">
-                    <div class="card-content">
-                        <h2>
-                            Allysa Rose
-
-                        </h2>
-                        <p>
-                            <i class="fa fa-facebook"></i>
-
-                            <i class="fa fa-google"></i>
-
-                            <i class="fa fa-twitter"></i>
-
-                        </p>
-                    </div>
-
-                </div>
-
-                <div class = "card">
-                    <img src="{{ asset('assets/Team/default.jpeg') }}"
-                        alt="">
-                    <div class="card-content">
-                        <h2>
-                            Mehruk Hayat
-
-                        </h2>
-                        <p>
-                            <i class="fa fa-facebook"></i>
-
-                            <i class="fa fa-google"></i>
-
-                            <i class="fa fa-twitter"></i>
-
-                        </p>
-                    </div>
-
-                </div>
+                    </li>
+                    <li>
+                        Allysa Rose
+                    </li>
+                    <li>
+                        Mehruk Hayat
+                    </li>
+                </ul>
             </main>
         </div>
 
@@ -705,62 +628,20 @@
             </div>
 
             <main>
-                <div class = "card">
-                    <img src="{{ asset('assets/Team/default.jpeg') }}"
-                        alt="">
-                    <div class="card-content">
-                        <h2>
-                            Maryama Akhter
 
-                        </h2>
-                        <p>
-                            <i class="fa fa-facebook"></i>
+                <ul>
+                    <li>
+                        Maryama Akhter
+                    </li>
+                    <li>
+                        Nissara Bano
 
-                            <i class="fa fa-google"></i>
+                    </li>
+                    <li>
+                        Asima Fatimah
+                    </li>
 
-                            <i class="fa fa-twitter"></i>
-
-                        </p>
-                    </div>
-
-                </div>
-                <div class = "card">
-                    <img src="{{ asset('assets/Team/default.jpeg') }}"
-                        alt="">
-                    <div class="card-content">
-                        <h2>
-                             Nissara Bano
-
-                        </h2>
-                        <p>
-                            <i class="fa fa-facebook"></i>
-
-                            <i class="fa fa-google"></i>
-
-                            <i class="fa fa-twitter"></i>
-
-                        </p>
-                    </div>
-
-                </div>
-                <div class = "card">
-                    <img src="{{ asset('assets/Team/default.jpeg') }}"
-                        alt="">
-                    <div class="card-content">
-                        <h2>
-                          Asima Fatimah
-                        </h2>
-                        <p>
-                            <i class="fa fa-facebook"></i>
-
-                            <i class="fa fa-google"></i>
-
-                            <i class="fa fa-twitter"></i>
-
-                        </p>
-                    </div>
-
-                </div>
+                </ul>
 
             </main>
         </div>
@@ -782,123 +663,30 @@
             </div>
 
             <main>
-                <div class = "card">
-                    <img src="{{ asset('assets/Team/default.jpeg') }}"
-                        alt="">
-                    <div class="card-content">
-                        <h2>
-                            Fatimah Sughra
-
-                        </h2>
-                        <p>
-                            <i class="fa fa-facebook"></i>
-
-                            <i class="fa fa-google"></i>
-
-                            <i class="fa fa-twitter"></i>
-
-                        </p>
-                    </div>
-
-                </div>
-                <div class = "card">
-                    <img src="{{ asset('assets/Team/default.jpeg') }}"
-                        alt="">
-                    <div class="card-content">
-                        <h2>
-                            Abida
-
-                        </h2>
-                        <p>
-                            <i class="fa fa-facebook"></i>
-
-                            <i class="fa fa-google"></i>
-
-                            <i class="fa fa-twitter"></i>
-
-                        </p>
-                    </div>
-
-                </div>
-                <div class = "card">
-                    <img src="{{ asset('assets/Team/default.jpeg') }}"
-                        alt="">
-                    <div class="card-content">
-                        <h2>
-                            Toufeeqa
-
-                        </h2>
-                        <p>
-                            <i class="fa fa-facebook"></i>
-
-                            <i class="fa fa-google"></i>
-
-                            <i class="fa fa-twitter"></i>
-
-                        </p>
-                    </div>
-
-                </div>
-
-                <div class = "card">
-                    <img src="{{ asset('assets/Team/default.jpeg') }}"
-                        alt="">
-                    <div class="card-content">
-                        <h2>
-                            Syed Hussain
 
 
-                        </h2>
-                        <p>
-                            <i class="fa fa-facebook"></i>
+                <ul>
+                    <li>
+                        Fatimah Sughra
+                    </li>
+                    <li>
+                        Abida
 
-                            <i class="fa fa-google"></i>
+                    </li>
+                    <li>
+                        Toufeeqa
+                    </li>
+                    <li>
+                        Syed Hussain
+                    </li>
+                      <li>
+                        Sajad Ahmad
+                    </li>
+                    <li>
+                        Saima Maqbool
+                    </li>
 
-                            <i class="fa fa-twitter"></i>
-
-                        </p>
-                    </div>
-
-                </div>
-                <div class = "card">
-                    <img src="{{ asset('assets/Team/default.jpeg') }}"
-                        alt="">
-                    <div class="card-content">
-                        <h2>
-                            Sajad Ahmad
-                        </h2>
-                        <p>
-                            <i class="fa fa-facebook"></i>
-
-                            <i class="fa fa-google"></i>
-
-                            <i class="fa fa-twitter"></i>
-
-                        </p>
-                    </div>
-
-                </div>
-                <div class = "card">
-                    <img src="{{ asset('assets/Team/default.jpeg') }}"
-                        alt="">
-                    <div class="card-content">
-                        <h2>
-                            Saima Maqbool
-
-                        </h2>
-                        <p>
-                            <i class="fa fa-facebook"></i>
-
-                            <i class="fa fa-google"></i>
-
-                            <i class="fa fa-twitter"></i>
-
-                        </p>
-                    </div>
-
-                </div>
-
-
+                </ul>
 
             </main>
         </div>
